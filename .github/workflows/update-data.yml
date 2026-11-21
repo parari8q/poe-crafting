@@ -22,6 +22,15 @@ jobs:
           python-version: "3.12"
       - name: Pobierz ceny
         run: python scripts/fetch_prices.py
+      - name: Opisy przedmiotów (raz na dobę)
+        run: |
+          # checkout ustawia daty plików na teraz, więc wiek liczymy z historii gita
+          last=$(git log -1 --format=%ct -- data/items.json 2>/dev/null || echo 0)
+          if [ $(( $(date +%s) - ${last:-0} )) -gt 86000 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            FORCE=1 python scripts/fetch_items.py
+          else
+            echo "Opisy świeże"
+          fi
       - name: Zapisz zmiany
         run: |
           git config user.name "poe-crafting-bot"

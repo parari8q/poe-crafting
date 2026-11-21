@@ -31,7 +31,7 @@ function renderRows() {
       .map((i) => {
         const ch = i.change7d;
         const chTxt = ch == null ? "" : `<span class="${ch >= 0 ? "up" : "down"}">${ch > 0 ? "+" : ""}${ch}%</span>`;
-        return `<tr>
+        return `<tr data-id="${i.id}">
           <td><div class="item"><img src="${i.icon}" alt="" loading="lazy"><div>${i.name}${
           q ? `<div class="cat">${i.category}</div>` : ""
         }</div></div></td>
@@ -79,7 +79,7 @@ async function loadFarming() {
       const prices = (st.keyItems || [])
         .map((id) => byId[id])
         .filter(Boolean)
-        .map((i) => `<span class="price-chip"><img src="${i.icon}" alt="">${esc(i.name)}: <b>${fmt(i.chaos)}</b></span>`)
+        .map((i) => `<span class="price-chip" data-id="${i.id}" style="cursor:pointer"><img src="${i.icon}" alt="">${esc(i.name)}: <b>${fmt(i.chaos)}</b></span>`)
         .join("");
       return `<details class="card">
         <summary>
@@ -99,6 +99,51 @@ async function loadFarming() {
     })
     .join("");
 }
+
+// ---- Opis przedmiotu (dane z RePoE w data/items.json) ----
+const SLOTS = {
+  "Amulet": "Amulet", "Ring": "Pierścień", "Belt": "Pas", "Helmet": "Hełm", "Body Armour": "Zbroja",
+  "Gloves": "Rękawice", "Boots": "Buty", "Shield": "Tarcza", "Quiver": "Kołczan", "Bow": "Łuk",
+  "Staff": "Kostur", "Wand": "Różdżka", "Dagger": "Sztylet", "Claw": "Pazur", "Sceptre": "Berło",
+};
+const slotPl = (s) => SLOTS[s] || s;
+let itemInfo = null;
+
+async function openItem(id) {
+  const i = state.data.items.find((x) => x.id === id);
+  if (!i) return;
+  if (!itemInfo) {
+    try { itemInfo = await (await fetch("data/items.json", { cache: "no-store" })).json(); }
+    catch (e) { itemInfo = {}; }
+  }
+  const info = itemInfo[i.name] || {};
+  const ch = i.change7d;
+  const kv = [
+    ["Cena", `${fmt(i.chaos)}${state.inDiv ? "" : state.data.divine ? ` (${(i.chaos / state.data.divine).toFixed(3)} div)` : ""}`],
+    ["Zmiana 7 dni", ch == null ? "—" : `<span class="${ch >= 0 ? "up" : "down"}">${ch > 0 ? "+" : ""}${ch}%</span>`],
+    ["Kategoria", esc(i.category)],
+    info.stack ? ["Stack", info.stack] : null,
+    info.level ? ["Drop od poziomu", info.level] : null,
+  ].filter(Boolean);
+  const ess = info.essence
+    ? `<h4>Gwarantowany mod</h4><table class="ess">${info.essence
+        .map((e) => `<tr><td>${e.slots.map(slotPl).map(esc).join(", ")}</td><td>${esc(e.mod)}</td></tr>`)
+        .join("")}</table>`
+    : "";
+  $("sheetBody").innerHTML = `
+    <div class="sheet-head"><img src="${i.icon}" alt=""><h3>${esc(i.name)}</h3></div>
+    ${info.desc ? `<p class="desc">${esc(info.desc)}</p>` : `<p class="use">Brak opisu w danych gry.</p>`}
+    ${info.use ? `<p class="use">${esc(info.use)}</p>` : ""}
+    <div class="kv">${kv.map(([k, v]) => `<span>${k}</span><span>${v}</span>`).join("")}</div>
+    ${ess}`;
+  $("sheet").hidden = false;
+}
+const closeSheet = () => { $("sheet").hidden = true; };
+$("rows").addEventListener("click", (e) => { const tr = e.target.closest("tr[data-id]"); if (tr) openItem(tr.dataset.id); });
+$("farmList").addEventListener("click", (e) => { const c = e.target.closest("[data-id]"); if (c) { e.preventDefault(); openItem(c.dataset.id); } });
+$("sheetClose").addEventListener("click", closeSheet);
+$("sheet").addEventListener("click", (e) => { if (e.target.id === "sheet") closeSheet(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeSheet(); });
 
 $("search").addEventListener("input", (e) => { state.q = e.target.value; renderRows(); });
 $("inDiv").addEventListener("change", (e) => { state.inDiv = e.target.checked; renderRows(); });

@@ -1,0 +1,7350 @@
+{
+"Blacksmith's Whetstone": {
+"desc": "Improves the quality of a weapon",
+"use": "Right click this item then left click a weapon to apply it. Has greater effect on lower item level, non-unique weapons. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Scroll of Wisdom": {
+"desc": "Identifies an item",
+"use": "Right click this item then left click an unidentified item to apply it.",
+"stack": 40,
+"level": 1
+},
+"Chaos Orb": {
+"desc": "Reforges a rare item with new random modifiers",
+"use": "Right click this item then left click a rare item to apply it.",
+"stack": 20,
+"level": 12
+},
+"Veiled Exalted Orb": {
+"desc": "Removes a random modifier and adds a random Veiled modifier to a rare item",
+"use": "Right click this item then left click a rare item to apply it.",
+"stack": 20,
+"level": 61
+},
+"Veiled Chaos Orb": {
+"desc": "Reforges a rare item with new random modifiers including a random Veiled modifier",
+"use": "Right click this item then left click a rare item to apply it.",
+"stack": 20,
+"level": 61
+},
+"Armourer's Scrap": {
+"desc": "Improves the quality of an armour",
+"use": "Right click this item then left click an armour to apply it. Has greater effect on lower item level, non-unique armours. The maximum quality is 20%.",
+"stack": 40,
+"level": 1
+},
+"Mirror of Kalandra": {
+"desc": "Creates a mirrored copy of an item",
+"use": "Right click this item then left click an equipable non-unique item to apply it. Mirrored copies cannot be modified.",
+"stack": 10,
+"level": 35
+},
+"Orb of Alchemy": {
+"desc": "Upgrades a normal item to a rare item",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 20,
+"level": 2
+},
+"Orb of Chance": {
+"desc": "Upgrades a normal item to a random rarity",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 20,
+"level": 24
+},
+"Orb of Regret": {
+"desc": "Grants a passive skill refund point",
+"use": "Right click on this item to use it.",
+"stack": 40,
+"level": 2
+},
+"Orb of Unmaking": {
+"desc": "Grants an atlas passive skill refund point",
+"use": "Right click on this item to use it.",
+"stack": 40,
+"level": 70
+},
+"Orb of Transmutation": {
+"desc": "Upgrades a normal item to a magic item",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 40,
+"level": 1
+},
+"Orb of Alteration": {
+"desc": "Reforges a magic item with new random modifiers",
+"use": "Right click this item then left click a magic item to apply it.",
+"stack": 20,
+"level": 2
+},
+"Orb of Scouring": {
+"desc": "Removes all modifiers from an item",
+"use": "Right click this item then left click on a magic or rare item to apply it.",
+"stack": 30,
+"level": 12
+},
+"Exalted Orb": {
+"desc": "Augments a rare item with a new random modifier",
+"use": "Right click this item then left click a rare item to apply it. Rare items can have up to six random modifiers.",
+"stack": 20,
+"level": 35
+},
+"Regal Orb": {
+"desc": "Upgrades a magic item to a rare item",
+"use": "Right click this item then left click a magic item to apply it. Current modifiers are retained and a new one is added.",
+"stack": 20,
+"level": 12
+},
+"Orb of Augmentation": {
+"desc": "Augments a magic item with a new random modifier",
+"use": "Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers.",
+"stack": 30,
+"level": 1
+},
+"Portal Scroll": {
+"desc": "Creates a portal to town",
+"use": "Right click on this item to use it.",
+"stack": 40,
+"level": 2
+},
+"Glassblower's Bauble": {
+"desc": "Improves the quality of a flask or tincture",
+"use": "Right click this item then left click a flask or tincture to apply it. Has greater effect on lower item level, non-unique flasks. The maximum quality is 20%.",
+"stack": 20,
+"level": 2
+},
+"Gemcutter's Prism": {
+"desc": "Improves the quality of a gem",
+"use": "Right click this item then left click a gem to apply it. The maximum quality is 20%.",
+"stack": 20,
+"level": 12
+},
+"Chromatic Orb": {
+"desc": "Reforges the colour of sockets on an item",
+"use": "Right click this item then left click a socketed item to apply it. The item's quality increases the chances of non-white sockets.",
+"stack": 20,
+"level": 20
+},
+"Orb of Fusing": {
+"desc": "Reforges the links between sockets on an item",
+"use": "Right click this item then left click a socketed item to apply it. The item's quality increases the chances of obtaining more links.",
+"stack": 20,
+"level": 8
+},
+"Jeweller's Orb": {
+"desc": "Reforges the number of sockets on an item",
+"use": "Right click this item then left click a socketed item to apply it. The item's quality increases the chances of obtaining more sockets.",
+"stack": 20,
+"level": 8
+},
+"Divine Orb": {
+"desc": "Randomises the values of the random modifiers on an item",
+"use": "Right click this item then left click a magic, rare or unique item to apply it.",
+"stack": 20,
+"level": 35
+},
+"Blessed Orb": {
+"desc": "Randomises the values of the implicit modifiers of an item",
+"use": "Right click this item then left click another item to apply it.",
+"stack": 20,
+"level": 35
+},
+"Sacred Orb": {
+"desc": "Randomises the numeric values of base defences on an armour",
+"use": "Right click this item then left click an armour to apply it.",
+"stack": 10,
+"level": 35
+},
+"Maven's Chisel of Procurement": {
+"desc": "Improves the quality of a map enhancing Item Rarity\r\nReplaces other quality types",
+"use": "Right click this item then left click a map to apply it. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Maven's Chisel of Proliferation": {
+"desc": "Improves the quality of a map enhancing Pack Size\r\nReplaces other quality types",
+"use": "Right click this item then left click a map to apply it. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Maven's Chisel of Divination": {
+"desc": "Improves the quality of a map enhancing Divination Cards found\r\nReplaces other quality types",
+"use": "Right click this item then left click a map to apply it. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Maven's Chisel of Threads": {
+"desc": "Improves the quality of a map enhancing [Thread|Threads] found\r\nReplaces other quality types",
+"use": "Right click this item then left click a map to apply it. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Maven's Chisel of Avarice": {
+"desc": "Improves the quality of a map enhancing Currency found\r\nReplaces other quality types",
+"use": "Right click this item then left click a map to apply it. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Vaal Orb": {
+"desc": "Corrupts an item, modifying it unpredictably",
+"use": "Right click this item then left click an item to corrupt it. Corrupted items cannot be modified again.",
+"stack": 20,
+"level": 12
+},
+"Shaper's Exalted Orb": {
+"desc": "Adds Shaper influence and a new Shaper modifier to a rare item",
+"use": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+"stack": 20,
+"level": 1
+},
+"Elder's Exalted Orb": {
+"desc": "Adds Elder influence and a new Elder modifier to a rare item",
+"use": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+"stack": 20,
+"level": 1
+},
+"Orb of Remembrance": {
+"desc": "Randomises the number of Memory Strands on a normal equipment item",
+"use": "Right click this item then left click a normal equipment item to apply it.",
+"stack": 10,
+"level": 1
+},
+"Orb of Unravelling": {
+"desc": "Consumes all Memory Strands on an item to attempt to upgrade the tier\r\nof explicit modifiers based on the number of Memory Strands consumed",
+"use": "Right click this item then left click an equipment item with Memory Strands to apply it.",
+"stack": 10,
+"level": 1
+},
+"Orb of Intention": {
+"desc": "Modifies a Memory Influenced Map, causing items found to\r\nhave more Memory Strands, but fewer items drop",
+"use": "Right click this item then left click a Memory Influenced Map item to apply it. Can apply up to 3 to a single Map item.",
+"stack": 10,
+"level": 1
+},
+"Tempering Orb": {
+"desc": "Adds or replaces an enchantment on a weapon\r\nThis may reforge the weapon's sockets",
+"use": "Right click this item then left click on the item you wish to modify.",
+"stack": 20,
+"level": 1
+},
+"Tailoring Orb": {
+"desc": "Adds or replaces an enchantment on a body armour\r\nThis may reforge the body armour's sockets",
+"use": "Right click this item then left click on the item you wish to modify.",
+"stack": 20,
+"level": 1
+},
+"Fine Delirium Orb": {
+"desc": "Reforges a rare Map item with a modifier making players in area Delirious\n[DeliriumRewardType|Delirium Reward Type]: Currency Items",
+"use": "Right click this item then left click a Map item to apply it. Applying multiple Delirium Orbs of the same type will add to the current Delirious percentage, up to 100%. Using a Delirium Orb of a different reward type resets the Delirious percentage.",
+"stack": 10,
+"level": 1
+},
+"Singular Delirium Orb": {
+"desc": "Reforges a rare Map item with a modifier making players in area Delirious\n[DeliriumRewardType|Delirium Reward Type]: Unique Items",
+"use": "Right click this item then left click a Map item to apply it. Applying multiple Delirium Orbs of the same type will add to the current Delirious percentage, up to 100%. Using a Delirium Orb of a different reward type resets the Delirious percentage.",
+"stack": 10,
+"level": 1
+},
+"Thaumaturge's Delirium Orb": {
+"desc": "Reforges a rare Map item with a modifier making players in area Delirious\n[DeliriumRewardType|Delirium Reward Type]: Gems",
+"use": "Right click this item then left click a Map item to apply it. Applying multiple Delirium Orbs of the same type will add to the current Delirious percentage, up to 100%. Using a Delirium Orb of a different reward type resets the Delirious percentage.",
+"stack": 10,
+"level": 1
+},
+"Blacksmith's Delirium Orb": {
+"desc": "Reforges a rare Map item with a modifier making players in area Delirious\n[DeliriumRewardType|Delirium Reward Type]: Weapons",
+"use": "Right click this item then left click a Map item to apply it. Applying multiple Delirium Orbs of the same type will add to the current Delirious percentage, up to 100%. Using a Delirium Orb of a different reward type resets the Delirious percentage.",
+"stack": 10,
+"level": 1
+},
+"Armoursmith's Delirium Orb": {
+"desc": "Reforges a rare Map item with a modifier making players in area Delirious\n[DeliriumRewardType|Delirium Reward Type]: Armour",
+"use": "Right click this item then left click a Map item to apply it. Applying multiple Delirium Orbs of the same type will add to the current Delirious percentage, up to 100%. Using a Delirium Orb of a different reward type resets the Delirious percentage.",
+"stack": 10,
+"level": 1
+},
+"Cartographer's Delirium Orb": {
+"desc": "Reforges a rare Map item with a modifier making players in area Delirious\n[DeliriumRewardType|Delirium Reward Type]: Map Items",
+"use": "Right click this item then left click a Map item to apply it. Applying multiple Delirium Orbs of the same type will add to the current Delirious percentage, up to 100%. Using a Delirium Orb of a different reward type resets the Delirious percentage.",
+"stack": 10,
+"level": 1
+},
+"Jeweller's Delirium Orb": {
+"desc": "Reforges a rare Map item with a modifier making players in area Delirious\n[DeliriumRewardType|Delirium Reward Type]: Trinkets",
+"use": "Right click this item then left click a Map item to apply it. Applying multiple Delirium Orbs of the same type will add to the current Delirious percentage, up to 100%. Using a Delirium Orb of a different reward type resets the Delirious percentage.",
+"stack": 10,
+"level": 1
+},
+"Whispering Delirium Orb": {
+"desc": "Reforges a rare Map item with a modifier making players in area Delirious\n[DeliriumRewardType|Delirium Reward Type]: Essences",
+"use": "Right click this item then left click a Map item to apply it. Applying multiple Delirium Orbs of the same type will add to the current Delirious percentage, up to 100%. Using a Delirium Orb of a different reward type resets the Delirious percentage.",
+"stack": 10,
+"level": 1
+},
+"Threaded Delirium Orb": {
+"desc": "Reforges a rare Map item with a modifier making players in area Delirious\n[DeliriumRewardType|Delirium Reward Type]: [Thread|Threads]",
+"use": "Right click this item then left click a Map item to apply it. Applying multiple Delirium Orbs of the same type will add to the current Delirious percentage, up to 100%. Using a Delirium Orb of a different reward type resets the Delirious percentage.",
+"stack": 10,
+"level": 1
+},
+"Diviner's Delirium Orb": {
+"desc": "Reforges a rare Map item with a modifier making players in area Delirious\n[DeliriumRewardType|Delirium Reward Type]: Divination Cards",
+"use": "Right click this item then left click a Map item to apply it. Applying multiple Delirium Orbs of the same type will add to the current Delirious percentage, up to 100%. Using a Delirium Orb of a different reward type resets the Delirious percentage.",
+"stack": 10,
+"level": 1
+},
+"Blighted Delirium Orb": {
+"desc": "Reforges a rare Map item with a modifier making players in area Delirious\n[DeliriumRewardType|Delirium Reward Type]: Blight",
+"use": "Right click this item then left click a Map item to apply it. Applying multiple Delirium Orbs of the same type will add to the current Delirious percentage, up to 100%. Using a Delirium Orb of a different reward type resets the Delirious percentage.",
+"stack": 10,
+"level": 1
+},
+"Refracting Fog": {
+"desc": "Replaces the Small Passive Skill Enchantment of a Cluster Jewel",
+"use": "Right click this item then left click a Cluster Jewel item to apply it.",
+"stack": 20,
+"level": 68
+},
+"Foulborn Orb of Augmentation": {
+"desc": "Augments a magic item with a new random modifier with\nhigher level modifiers being more likely",
+"use": "Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers.",
+"stack": 10,
+"level": 75
+},
+"Foulborn Regal Orb": {
+"desc": "Upgrades a magic item to a rare item with higher level\nmodifiers being more likely",
+"use": "Right click this item then left click a magic item to apply it. Current modifiers are retained and a new one is added.",
+"stack": 10,
+"level": 75
+},
+"Foulborn Exalted Orb": {
+"desc": "Augments a rare item with a new random modifier with\nhigher level modifiers being more likely",
+"use": "Right click this item then left click a rare item to apply it. Rare items can have up to six random modifiers.",
+"stack": 10,
+"level": 80
+},
+"Whispering Essence of Hatred": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 1,
+"essence": [
+{
+"mod": "(6-10)% increased Cold Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(6-11)% to Cold Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (2-3) to (6-7) Cold Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (1-2) to (3-4) Cold Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Muttering Essence of Hatred": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 10,
+"essence": [
+{
+"mod": "(11-14)% increased Cold Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(12-17)% to Cold Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (12-17) to (26-30) Cold Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (7-9) to (14-16) Cold Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Weeping Essence of Hatred": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 26,
+"essence": [
+{
+"mod": "(15-18)% increased Cold Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(18-23)% to Cold Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (29-40) to (58-68) Cold Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (16-21) to (31-37) Cold Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Screaming Essence of Hatred": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "(23-26)% increased Cold Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(36-41)% to Cold Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (99-136) to (200-232) Cold Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (54-74) to (108-126) Cold Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Shrieking Essence of Hatred": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "(27-30)% increased Cold Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(42-45)% to Cold Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (124-170) to (250-290) Cold Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (68-92) to (136-157) Cold Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Deafening Essence of Hatred": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "(31-34)% increased Cold Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(46-48)% to Cold Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (134-184) to (270-313) Cold Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (73-100) to (147-170) Cold Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Whispering Essence of Woe": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 1,
+"essence": [
+{
+"mod": "(2-4)% increased maximum Energy Shield",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(1-3) to maximum Energy Shield",
+"slots": [
+"Belt",
+"Ring"
+]
+},
+{
+"mod": "+(3-5) to maximum Energy Shield",
+"slots": [
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "(18-34)% increased Spell Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(10-19)% increased Spell Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(5-10)% increased Damage with Bow Skills",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Muttering Essence of Woe": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 10,
+"essence": [
+{
+"mod": "(5-7)% increased maximum Energy Shield",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(4-8) to maximum Energy Shield",
+"slots": [
+"Belt",
+"Ring"
+]
+},
+{
+"mod": "+(6-11) to maximum Energy Shield",
+"slots": [
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "(35-52)% increased Spell Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(20-29)% increased Spell Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(11-20)% increased Damage with Bow Skills",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Weeping Essence of Woe": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 26,
+"essence": [
+{
+"mod": "(8-10)% increased maximum Energy Shield",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(16-19) to maximum Energy Shield",
+"slots": [
+"Belt",
+"Ring"
+]
+},
+{
+"mod": "+(17-23) to maximum Energy Shield",
+"slots": [
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "(53-69)% increased Spell Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(30-39)% increased Spell Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(21-25)% increased Damage with Bow Skills",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Wailing Essence of Woe": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "(11-13)% increased maximum Energy Shield",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(23-26) to maximum Energy Shield",
+"slots": [
+"Belt",
+"Ring"
+]
+},
+{
+"mod": "+(31-38) to maximum Energy Shield",
+"slots": [
+"Body Armour",
+"Helmet"
+]
+},
+{
+"mod": "+(18-26) to maximum Energy Shield",
+"slots": [
+"Boots",
+"Gloves"
+]
+},
+{
+"mod": "(70-95)% increased Spell Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(40-54)% increased Spell Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(26-30)% increased Damage with Bow Skills",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(39-49) to maximum Energy Shield",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Screaming Essence of Woe": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "(14-16)% increased maximum Energy Shield",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(27-31) to maximum Energy Shield",
+"slots": [
+"Belt",
+"Ring"
+]
+},
+{
+"mod": "+(50-61) to maximum Energy Shield",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(27-32) to maximum Energy Shield",
+"slots": [
+"Boots",
+"Gloves"
+]
+},
+{
+"mod": "(88-116)% increased Spell Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(50-66)% increased Spell Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "+(39-45) to maximum Energy Shield",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "(31-36)% increased Damage with Bow Skills",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(50-59) to maximum Energy Shield",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Shrieking Essence of Woe": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "(17-18)% increased maximum Energy Shield",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(32-37) to maximum Energy Shield",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(77-90) to maximum Energy Shield",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(28-35) to maximum Energy Shield",
+"slots": [
+"Boots",
+"Gloves"
+]
+},
+{
+"mod": "(117-144)% increased Spell Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(67-82)% increased Spell Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "+(46-51) to maximum Energy Shield",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "(37-42)% increased Damage with Bow Skills",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(38-43) to maximum Energy Shield",
+"slots": [
+"Ring"
+]
+},
+{
+"mod": "+(60-69) to maximum Energy Shield",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Deafening Essence of Woe": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "(18-19)% increased maximum Energy Shield",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(38-43) to maximum Energy Shield",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(88-95) to maximum Energy Shield",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(38-45) to maximum Energy Shield",
+"slots": [
+"Boots",
+"Gloves"
+]
+},
+{
+"mod": "(145-165)% increased Spell Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(83-94)% increased Spell Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "+(52-58) to maximum Energy Shield",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "(43-50)% increased Damage with Bow Skills",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(44-47) to maximum Energy Shield",
+"slots": [
+"Ring"
+]
+},
+{
+"mod": "+(75-85) to maximum Energy Shield",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Muttering Essence of Greed": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 10,
+"essence": [
+{
+"mod": "Regenerate (2.1-8) Life per second",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(12-15)% increased Flask Life Recovery rate",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(40-54) to maximum Life",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "+(15-30) to maximum Life",
+"slots": [
+"Boots",
+"Gloves",
+"Helmet"
+]
+},
+{
+"mod": "(2.3-2.4)% of Physical Attack Damage Leeched as Life",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(0.6-0.8)% of Physical Attack Damage Leeched as Life",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Weeping Essence of Greed": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 26,
+"essence": [
+{
+"mod": "Regenerate (8.1-16) Life per second",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(16-19)% increased Flask Life Recovery rate",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(70-84) to maximum Life",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "+(31-45) to maximum Life",
+"slots": [
+"Boots",
+"Gloves",
+"Helmet"
+]
+},
+{
+"mod": "(2.5-2.8)% of Physical Attack Damage Leeched as Life",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(0.7-0.9)% of Physical Attack Damage Leeched as Life",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Wailing Essence of Greed": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "Regenerate (16.1-24) Life per second",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(20-23)% increased Flask Life Recovery rate",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(100-114) to maximum Life",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(46-60) to maximum Life",
+"slots": [
+"Boots",
+"Gloves",
+"Helmet"
+]
+},
+{
+"mod": "(2.9-3.2)% of Physical Attack Damage Leeched as Life",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(0.8-1)% of Physical Attack Damage Leeched as Life",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(85-99) to maximum Life",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Screaming Essence of Greed": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "Regenerate (24.1-32) Life per second",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(24-27)% increased Flask Life Recovery rate",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(130-144) to maximum Life",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(61-75) to maximum Life",
+"slots": [
+"Boots",
+"Gloves",
+"Helmet"
+]
+},
+{
+"mod": "(3.3-3.6)% of Physical Attack Damage Leeched as Life",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(0.9-1.1)% of Physical Attack Damage Leeched as Life",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(100-114) to maximum Life",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Shrieking Essence of Greed": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "Regenerate (32.1-48) Life per second",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(28-31)% increased Flask Life Recovery rate",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(145-159) to maximum Life",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(76-90) to maximum Life",
+"slots": [
+"Boots",
+"Gloves",
+"Helmet"
+]
+},
+{
+"mod": "(3.7-4)% of Physical Attack Damage Leeched as Life",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(1-1.2)% of Physical Attack Damage Leeched as Life",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(115-129) to maximum Life",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Deafening Essence of Greed": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "Regenerate (48.1-64) Life per second",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(32-35)% increased Flask Life Recovery rate",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(160-174) to maximum Life",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(91-105) to maximum Life",
+"slots": [
+"Boots",
+"Gloves",
+"Helmet"
+]
+},
+{
+"mod": "(4.1-4.4)% of Physical Attack Damage Leeched as Life",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(1.1-1.3)% of Physical Attack Damage Leeched as Life",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(130-144) to maximum Life",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Whispering Essence of Contempt": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 1,
+"essence": [
+{
+"mod": "Adds 1 to 2 Physical Damage to Attacks",
+"slots": [
+"Amulet",
+"Gloves",
+"Quiver",
+"Ring"
+]
+},
+{
+"mod": "Reflects (1-4) Physical Damage to Melee Attackers",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "Adds 2 to (4-5) Physical Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds 1 to (2-3) Physical Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Muttering Essence of Contempt": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 10,
+"essence": [
+{
+"mod": "Adds (2-3) to (4-5) Physical Damage to Attacks",
+"slots": [
+"Amulet",
+"Gloves",
+"Quiver",
+"Ring"
+]
+},
+{
+"mod": "Reflects (5-10) Physical Damage to Melee Attackers",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "Adds (6-8) to (12-15) Physical Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (4-5) to (8-9) Physical Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Weeping Essence of Contempt": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 26,
+"essence": [
+{
+"mod": "Adds (4-6) to (9-10) Physical Damage to Attacks",
+"slots": [
+"Amulet",
+"Quiver",
+"Ring"
+]
+},
+{
+"mod": "Reflects (11-24) Physical Damage to Melee Attackers",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "Adds (10-13) to (21-25) Physical Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (6-9) to (13-15) Physical Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (3-4) to (6-7) Physical Damage to Attacks",
+"slots": [
+"Gloves"
+]
+}
+]
+},
+"Wailing Essence of Contempt": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "Adds (6-9) to (13-15) Physical Damage to Attacks",
+"slots": [
+"Amulet",
+"Quiver"
+]
+},
+{
+"mod": "Reflects (25-50) Physical Damage to Melee Attackers",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "Adds (13-17) to (28-32) Physical Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (8-12) to (17-20) Physical Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (3-5) to (7-8) Physical Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (5-7) to (11-12) Physical Damage to Attacks",
+"slots": [
+"Ring"
+]
+}
+]
+},
+"Screaming Essence of Contempt": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "Adds (9-12) to (19-22) Physical Damage to Attacks",
+"slots": [
+"Amulet",
+"Quiver"
+]
+},
+{
+"mod": "Reflects (51-100) Physical Damage to Melee Attackers",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "Adds (20-28) to (43-51) Physical Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (13-18) to (27-31) Physical Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (4-5) to (8-9) Physical Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (6-8) to (12-13) Physical Damage to Attacks",
+"slots": [
+"Ring"
+]
+}
+]
+},
+"Shrieking Essence of Contempt": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "Adds (11-15) to (22-26) Physical Damage to Attacks",
+"slots": [
+"Amulet",
+"Quiver"
+]
+},
+{
+"mod": "Reflects (101-150) Physical Damage to Melee Attackers",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "Adds (25-33) to (52-61) Physical Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (16-21) to (32-38) Physical Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (5-6) to (9-10) Physical Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (7-9) to (13-15) Physical Damage to Attacks",
+"slots": [
+"Ring"
+]
+}
+]
+},
+"Deafening Essence of Contempt": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "Adds (16-18) to (27-30) Physical Damage to Attacks",
+"slots": [
+"Amulet",
+"Quiver"
+]
+},
+{
+"mod": "Reflects (151-200) Physical Damage to Melee Attackers",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "Adds (31-42) to (65-75) Physical Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (20-26) to (40-47) Physical Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (6-7) to (10-11) Physical Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (10-11) to (16-17) Physical Damage to Attacks",
+"slots": [
+"Ring"
+]
+}
+]
+},
+"Muttering Essence of Sorrow": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 10,
+"essence": [
+{
+"mod": "+(13-17) to Dexterity",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (5-6)% Cold Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 3% Cold Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Weeping Essence of Sorrow": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 26,
+"essence": [
+{
+"mod": "+(18-22) to Dexterity",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (7-8)% Cold Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 4% Cold Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Wailing Essence of Sorrow": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "+(28-32) to Dexterity",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (9-10)% Cold Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 5% Cold Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Screaming Essence of Sorrow": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "+(33-37) to Dexterity",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (11-12)% Cold Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 6% Cold Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Shrieking Essence of Sorrow": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "+(43-50) to Dexterity",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (13-14)% Cold Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 7% Cold Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Deafening Essence of Sorrow": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "+(51-58) to Dexterity",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (15-16)% Cold Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 8% Cold Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Muttering Essence of Anger": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 10,
+"essence": [
+{
+"mod": "(11-14)% increased Fire Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(12-17)% to Fire Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (14-20) to (29-33) Fire Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (8-10) to (15-18) Fire Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Weeping Essence of Anger": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 26,
+"essence": [
+{
+"mod": "(15-18)% increased Fire Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(18-23)% to Fire Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (32-44) to (65-76) Fire Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (17-24) to (35-41) Fire Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Wailing Essence of Anger": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "(19-22)% increased Fire Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(24-29)% to Fire Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (63-85) to (128-148) Fire Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (34-46) to (68-80) Fire Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Screaming Essence of Anger": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "(23-26)% increased Fire Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(36-41)% to Fire Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (110-150) to (223-260) Fire Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (59-81) to (120-140) Fire Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Shrieking Essence of Anger": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "(27-30)% increased Fire Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(42-45)% to Fire Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (137-188) to (279-325) Fire Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (74-101) to (150-175) Fire Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Deafening Essence of Anger": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "(31-34)% increased Fire Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(46-48)% to Fire Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (149-203) to (302-351) Fire Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (80-109) to (162-189) Fire Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Muttering Essence of Torment": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 10,
+"essence": [
+{
+"mod": "Adds 1 to (14-15) Lightning Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(35-38)% chance to Avoid being Shocked",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(4-5)% chance to Avoid Lightning Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (1-4) to (43-45) Lightning Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (1-2) to (22-23) Lightning Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds 1 to 5 Lightning Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds 2 to (16-18) Lightning Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Weeping Essence of Torment": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 26,
+"essence": [
+{
+"mod": "Adds (1-2) to (27-28) Lightning Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(39-42)% chance to Avoid being Shocked",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(5-6)% chance to Avoid Lightning Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (3-8) to (96-103) Lightning Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (1-4) to (52-54) Lightning Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds 1 to (14-15) Lightning Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (2-3) to (35-40) Lightning Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Wailing Essence of Torment": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "Adds (1-4) to (40-43) Lightning Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(43-46)% chance to Avoid being Shocked",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(6-7)% chance to Avoid Lightning Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (5-15) to (186-196) Lightning Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (2-8) to (99-104) Lightning Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (1-2) to (22-23) Lightning Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (2-5) to (56-62) Lightning Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Screaming Essence of Torment": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "Adds (3-6) to (57-61) Lightning Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(47-50)% chance to Avoid being Shocked",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(7-8)% chance to Avoid Lightning Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (8-19) to (248-261) Lightning Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (2-11) to (132-139) Lightning Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (1-2) to (27-28) Lightning Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (3-8) to (89-99) Lightning Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Shrieking Essence of Torment": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "Adds (3-7) to (68-72) Lightning Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(51-55)% chance to Avoid being Shocked",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(8-9)% chance to Avoid Lightning Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (8-26) to (316-335) Lightning Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (5-14) to (169-179) Lightning Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (1-3) to (33-34) Lightning Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (5-11) to (124-140) Lightning Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Deafening Essence of Torment": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "Adds (4-8) to (71-76) Lightning Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(56-60)% chance to Avoid being Shocked",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(9-10)% chance to Avoid Lightning Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (11-31) to (405-429) Lightning Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (5-18) to (216-227) Lightning Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (1-4) to (40-43) Lightning Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (6-13) to (136-155) Lightning Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Muttering Essence of Fear": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 10,
+"essence": [
+{
+"mod": "Minions have (13-15)% increased Movement Speed",
+"slots": [
+"Amulet",
+"Quiver",
+"Ring"
+]
+},
+{
+"mod": "Minions have (13-15)% increased maximum Life",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Shield"
+]
+},
+{
+"mod": "Minions deal (30-44)% increased Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Minions deal (20-29)% increased Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Minions deal (13-15)% increased Damage",
+"slots": [
+"Gloves",
+"Helmet"
+]
+}
+]
+},
+"Weeping Essence of Fear": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 26,
+"essence": [
+{
+"mod": "Minions have (16-18)% increased Movement Speed",
+"slots": [
+"Amulet",
+"Quiver",
+"Ring"
+]
+},
+{
+"mod": "Minions have (16-18)% increased maximum Life",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Shield"
+]
+},
+{
+"mod": "Minions deal (45-59)% increased Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Minions deal (30-39)% increased Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Minions deal (16-18)% increased Damage",
+"slots": [
+"Gloves",
+"Helmet"
+]
+}
+]
+},
+"Wailing Essence of Fear": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "Minions have (19-21)% increased Movement Speed",
+"slots": [
+"Amulet",
+"Quiver",
+"Ring"
+]
+},
+{
+"mod": "Minions have (19-21)% increased maximum Life",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Shield"
+]
+},
+{
+"mod": "Minions deal (60-84)% increased Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Minions deal (40-54)% increased Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Minions deal (19-21)% increased Damage",
+"slots": [
+"Gloves",
+"Helmet"
+]
+}
+]
+},
+"Screaming Essence of Fear": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "Minions have (22-24)% increased Movement Speed",
+"slots": [
+"Amulet",
+"Quiver",
+"Ring"
+]
+},
+{
+"mod": "Minions have (22-24)% increased maximum Life",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Shield"
+]
+},
+{
+"mod": "Minions deal (85-106)% increased Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Minions deal (50-66)% increased Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Minions deal (22-24)% increased Damage",
+"slots": [
+"Gloves",
+"Helmet"
+]
+}
+]
+},
+"Shrieking Essence of Fear": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "Minions have (25-27)% increased Movement Speed",
+"slots": [
+"Amulet",
+"Quiver",
+"Ring"
+]
+},
+{
+"mod": "Minions have (25-27)% increased maximum Life",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Shield"
+]
+},
+{
+"mod": "Minions deal (107-122)% increased Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Minions deal (67-82)% increased Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Minions deal (25-27)% increased Damage",
+"slots": [
+"Gloves",
+"Helmet"
+]
+}
+]
+},
+"Deafening Essence of Fear": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "Minions have (28-30)% increased Movement Speed",
+"slots": [
+"Amulet",
+"Quiver",
+"Ring"
+]
+},
+{
+"mod": "Minions have (28-30)% increased maximum Life",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Shield"
+]
+},
+{
+"mod": "Minions deal (123-144)% increased Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Minions deal (83-94)% increased Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Minions deal (28-30)% increased Damage",
+"slots": [
+"Gloves",
+"Helmet"
+]
+}
+]
+},
+"Screaming Essence of Suffering": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "Adds (12-16) to (24-28) Cold Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(47-50)% chance to Avoid being Frozen",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(7-8)% chance to Avoid Cold Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (59-79) to (116-136) Cold Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (31-42) to (62-73) Cold Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (6-9) to (13-16) Cold Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (18-24) to (36-42) Cold Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Shrieking Essence of Suffering": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "Adds (17-22) to (34-40) Cold Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(51-55)% chance to Avoid being Frozen",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(8-9)% chance to Avoid Cold Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (76-99) to (149-175) Cold Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (41-53) to (79-93) Cold Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (8-11) to (16-19) Cold Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (33-45) to (67-78) Cold Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Deafening Essence of Suffering": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "Adds (20-24) to (38-44) Cold Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(56-60)% chance to Avoid being Frozen",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(9-10)% chance to Avoid Cold Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (96-129) to (190-223) Cold Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (52-69) to (103-118) Cold Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (10-13) to (20-24) Cold Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (36-50) to (74-86) Cold Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Wailing Essence of Rage": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "+(28-32) to Strength",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (9-10)% Fire Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 5% Fire Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Screaming Essence of Rage": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "+(33-37) to Strength",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (11-12)% Fire Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 6% Fire Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Shrieking Essence of Rage": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "+(43-50) to Strength",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (13-14)% Fire Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 7% Fire Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Deafening Essence of Rage": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "+(51-58) to Strength",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (15-16)% Fire Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 8% Fire Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Weeping Essence of Wrath": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 26,
+"essence": [
+{
+"mod": "(13-15)% increased Lightning Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(18-23)% to Lightning Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (5-8) to (106-123) Lightning Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds 3 to (57-67) Lightning Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Wailing Essence of Wrath": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "(16-18)% increased Lightning Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(24-29)% to Lightning Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (11-14) to (208-242) Lightning Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (5-8) to (112-131) Lightning Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Screaming Essence of Wrath": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "(23-26)% increased Lightning Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(36-41)% to Lightning Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (19-25) to (366-425) Lightning Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (10-14) to (197-229) Lightning Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Shrieking Essence of Wrath": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "(27-30)% increased Lightning Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(42-45)% to Lightning Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (23-32) to (458-531) Lightning Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (13-17) to (247-286) Lightning Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Deafening Essence of Wrath": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "(31-34)% increased Lightning Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(46-48)% to Lightning Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (25-34) to (494-575) Lightning Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (13-19) to (266-310) Lightning Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Wailing Essence of Doubt": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "(19-23)% increased Evasion Rating",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(61-80) to Evasion Rating",
+"slots": [
+"Belt",
+"Ring"
+]
+},
+{
+"mod": "+(102-120) to Evasion Rating",
+"slots": [
+"Body Armour",
+"Helmet"
+]
+},
+{
+"mod": "+(81-90) to Evasion Rating",
+"slots": [
+"Boots",
+"Gloves"
+]
+},
+{
+"mod": "+(216-325) to Accuracy Rating",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "+(166-250) to Accuracy Rating",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(121-150) to Evasion Rating",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Screaming Essence of Doubt": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "(24-28)% increased Evasion Rating",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(81-120) to Evasion Rating",
+"slots": [
+"Belt",
+"Ring"
+]
+},
+{
+"mod": "+(151-200) to Evasion Rating",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(91-105) to Evasion Rating",
+"slots": [
+"Boots",
+"Gloves"
+]
+},
+{
+"mod": "+(326-455) to Accuracy Rating",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "+(121-140) to Evasion Rating",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "+(251-350) to Accuracy Rating",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(151-225) to Evasion Rating",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Shrieking Essence of Doubt": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "(29-31)% increased Evasion Rating",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(121-150) to Evasion Rating",
+"slots": [
+"Belt",
+"Ring"
+]
+},
+{
+"mod": "+(301-400) to Evasion Rating",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(106-120) to Evasion Rating",
+"slots": [
+"Boots",
+"Gloves"
+]
+},
+{
+"mod": "+(456-624) to Accuracy Rating",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "+(141-160) to Evasion Rating",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "+(351-480) to Accuracy Rating",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(226-300) to Evasion Rating",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Deafening Essence of Doubt": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "(32-33)% increased Evasion Rating",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(151-180) to Evasion Rating",
+"slots": [
+"Belt",
+"Ring"
+]
+},
+{
+"mod": "+(390-475) to Evasion Rating",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(121-135) to Evasion Rating",
+"slots": [
+"Boots",
+"Gloves"
+]
+},
+{
+"mod": "+(625-780) to Accuracy Rating",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "+(161-180) to Evasion Rating",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "+(481-600) to Accuracy Rating",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(301-375) to Evasion Rating",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Wailing Essence of Anguish": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "Adds (11-15) to (23-27) Fire Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(43-46)% chance to Avoid being Ignited",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(6-7)% chance to Avoid Fire Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (48-65) to (96-113) Fire Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (28-39) to (57-67) Fire Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (5-7) to (11-13) Fire Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (17-22) to (33-38) Fire Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Screaming Essence of Anguish": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "Adds (16-22) to (32-38) Fire Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(47-50)% chance to Avoid being Ignited",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(7-8)% chance to Avoid Fire Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (64-85) to (129-150) Fire Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (38-51) to (77-88) Fire Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (7-10) to (15-18) Fire Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (27-35) to (53-62) Fire Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Shrieking Essence of Anguish": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "Adds (19-25) to (39-45) Fire Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(51-55)% chance to Avoid being Ignited",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(8-9)% chance to Avoid Fire Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (83-109) to (166-191) Fire Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (50-64) to (98-113) Fire Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (9-12) to (19-22) Fire Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (37-50) to (74-87) Fire Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Deafening Essence of Anguish": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "Adds (23-27) to (43-48) Fire Damage to Attacks",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(56-60)% chance to Avoid being Ignited",
+"slots": [
+"Belt",
+"Boots",
+"Helmet"
+]
+},
+{
+"mod": "(9-10)% chance to Avoid Fire Damage from Hits",
+"slots": [
+"Body Armour",
+"Shield"
+]
+},
+{
+"mod": "Adds (105-140) to (210-246) Fire Damage to Spells",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (62-84) to (124-146) Fire Damage to Spells",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (11-15) to (23-27) Fire Damage to Attacks",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Adds (41-55) to (81-96) Fire Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Screaming Essence of Loathing": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "(30-34)% increased Global Critical Strike Chance",
+"slots": [
+"Amulet",
+"Quiver"
+]
+},
+{
+"mod": "(26-30)% increased Stun Duration on Enemies",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "(5-6)% increased Mana Reservation Efficiency of Skills",
+"slots": [
+"Body Armour",
+"Helmet"
+]
+},
+{
+"mod": "(21-25)% chance to Avoid Elemental Ailments",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "(25-29)% increased Critical Strike Chance",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(18-20)% increased Global Critical Strike Chance",
+"slots": [
+"Gloves",
+"Ring"
+]
+},
+{
+"mod": "(58-63)% increased Chance to Block",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Shrieking Essence of Loathing": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "(35-38)% increased Global Critical Strike Chance",
+"slots": [
+"Amulet",
+"Quiver"
+]
+},
+{
+"mod": "(31-35)% increased Stun Duration on Enemies",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "(7-8)% increased Mana Reservation Efficiency of Skills",
+"slots": [
+"Body Armour",
+"Helmet"
+]
+},
+{
+"mod": "(26-30)% chance to Avoid Elemental Ailments",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "(30-34)% increased Critical Strike Chance",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(21-23)% increased Global Critical Strike Chance",
+"slots": [
+"Gloves",
+"Ring"
+]
+},
+{
+"mod": "(64-69)% increased Chance to Block",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Deafening Essence of Loathing": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "(39-42)% increased Global Critical Strike Chance",
+"slots": [
+"Amulet",
+"Quiver"
+]
+},
+{
+"mod": "(36-39)% increased Stun Duration on Enemies",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "(9-10)% increased Mana Reservation Efficiency of Skills",
+"slots": [
+"Body Armour",
+"Helmet"
+]
+},
+{
+"mod": "(31-35)% chance to Avoid Elemental Ailments",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "(35-38)% increased Critical Strike Chance",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(24-26)% increased Global Critical Strike Chance",
+"slots": [
+"Gloves",
+"Ring"
+]
+},
+{
+"mod": "(70-75)% increased Chance to Block",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Wailing Essence of Spite": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "+(28-32) to Intelligence",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (9-10)% Lightning Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 5% Lightning Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Screaming Essence of Spite": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "+(33-37) to Intelligence",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (11-12)% Lightning Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 6% Lightning Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Shrieking Essence of Spite": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "+(43-50) to Intelligence",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (13-14)% Lightning Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 7% Lightning Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Deafening Essence of Spite": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "+(51-58) to Intelligence",
+"slots": [
+"Amulet",
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "Damage Penetrates (15-16)% Lightning Resistance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Damage Penetrates 8% Lightning Resistance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
+"Wailing Essence of Zeal": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "(5-8)% increased Cast Speed",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(7-10)% increased Trap and Mine Throwing Speed",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "(21-25)% increased Totem Placement speed",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "20% increased Movement Speed",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "(11-12)% increased Attack Speed",
+"slots": [
+"Bow",
+"Wand"
+]
+},
+{
+"mod": "(20-22)% increased Attack Speed",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(8-10)% increased Attack Speed",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "(15-20)% increased Warcry Speed",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "(6-7)% increased Attack Speed",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "(20-22)% increased Stun and Block Recovery",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Screaming Essence of Zeal": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "(9-12)% increased Cast Speed",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "(11-13)% increased Trap and Mine Throwing Speed",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "(26-30)% increased Totem Placement speed",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "25% increased Movement Speed",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "(13-14)% increased Attack Speed",
+"slots": [
+"Bow",
+"Wand"
+]
+},
+{
+"mod": "(23-25)% increased Attack Speed",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(11-13)% increased Attack Speed",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "(21-25)% increased Warcry Speed",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "(8-9)% increased Attack Speed",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "(23-25)% increased Stun and Block Recovery",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Shrieking Essence of Zeal": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "(13-16)% increased Cast Speed",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "(14-17)% increased Trap and Mine Throwing Speed",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "(31-35)% increased Totem Placement speed",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "30% increased Movement Speed",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "(15-16)% increased Attack Speed",
+"slots": [
+"Bow",
+"Wand"
+]
+},
+{
+"mod": "(26-27)% increased Attack Speed",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(14-16)% increased Attack Speed",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "(26-30)% increased Warcry Speed",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "(10-12)% increased Attack Speed",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "(13-14)% increased Cast Speed",
+"slots": [
+"Ring"
+]
+},
+{
+"mod": "(26-28)% increased Stun and Block Recovery",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Deafening Essence of Zeal": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "(17-20)% increased Cast Speed",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "(18-21)% increased Trap and Mine Throwing Speed",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "(36-45)% increased Totem Placement speed",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "32% increased Movement Speed",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "(17-18)% increased Attack Speed",
+"slots": [
+"Bow",
+"Gloves",
+"Wand"
+]
+},
+{
+"mod": "(28-30)% increased Attack Speed",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(31-35)% increased Warcry Speed",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "(13-15)% increased Attack Speed",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "(15-16)% increased Cast Speed",
+"slots": [
+"Ring"
+]
+},
+{
+"mod": "(29-34)% increased Stun and Block Recovery",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Screaming Essence of Misery": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "(50-59)% increased Mana Regeneration Rate",
+"slots": [
+"Amulet",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "(11-15)% increased Flask Mana Recovery rate",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(55-59) to maximum Mana",
+"slots": [
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet"
+]
+},
+{
+"mod": "(32-37)% increased Cast Speed",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(21-24)% increased Cast Speed",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(0.2-0.4)% of Physical Attack Damage Leeched as Mana",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Shrieking Essence of Misery": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "(60-69)% increased Mana Regeneration Rate",
+"slots": [
+"Amulet",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "(16-20)% increased Flask Mana Recovery rate",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(65-68) to maximum Mana",
+"slots": [
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet"
+]
+},
+{
+"mod": "(38-43)% increased Cast Speed",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(25-28)% increased Cast Speed",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(0.6-0.8)% of Physical Attack Damage Leeched as Mana",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Deafening Essence of Misery": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "(70-76)% increased Mana Regeneration Rate",
+"slots": [
+"Amulet",
+"Ring",
+"Shield"
+]
+},
+{
+"mod": "(21-25)% increased Flask Mana Recovery rate",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(69-77) to maximum Mana",
+"slots": [
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet"
+]
+},
+{
+"mod": "(44-49)% increased Cast Speed",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(29-32)% increased Cast Speed",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(0.9-1)% of Physical Attack Damage Leeched as Mana",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Screaming Essence of Dread": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "(24-28)% increased Armour",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(323-400) to Armour",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(151-200) to Armour",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(91-105) to Armour",
+"slots": [
+"Boots",
+"Gloves"
+]
+},
+{
+"mod": "+1 to Level of Socketed Bow Gems",
+"slots": [
+"Bow"
+]
+},
+{
+"mod": "(12-16)% increased Impale Effect",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword"
+]
+},
+{
+"mod": "+(121-140) to Armour",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "(34-41)% increased Projectile Speed",
+"slots": [
+"Quiver",
+"Wand"
+]
+},
+{
+"mod": "+(80-120) to Armour",
+"slots": [
+"Ring"
+]
+},
+{
+"mod": "+(151-225) to Armour",
+"slots": [
+"Shield"
+]
+},
+{
+"mod": "(25-29)% increased Impale Effect",
+"slots": [
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+}
+]
+},
+"Shrieking Essence of Dread": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "(29-31)% increased Armour",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(401-460) to Armour",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(301-400) to Armour",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(106-120) to Armour",
+"slots": [
+"Boots",
+"Gloves"
+]
+},
+{
+"mod": "+2 to Level of Socketed Bow Gems",
+"slots": [
+"Bow"
+]
+},
+{
+"mod": "(17-21)% increased Impale Effect",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword"
+]
+},
+{
+"mod": "+(141-160) to Armour",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "(42-46)% increased Projectile Speed",
+"slots": [
+"Quiver",
+"Wand"
+]
+},
+{
+"mod": "+(121-200) to Armour",
+"slots": [
+"Ring"
+]
+},
+{
+"mod": "+(226-300) to Armour",
+"slots": [
+"Shield"
+]
+},
+{
+"mod": "(30-34)% increased Impale Effect",
+"slots": [
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+}
+]
+},
+"Deafening Essence of Dread": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "(32-33)% increased Armour",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+(481-520) to Armour",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "+(390-475) to Armour",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "+(121-135) to Armour",
+"slots": [
+"Boots",
+"Gloves"
+]
+},
+{
+"mod": "+2 to Level of Socketed Bow Gems",
+"slots": [
+"Bow"
+]
+},
+{
+"mod": "(22-25)% increased Impale Effect",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword"
+]
+},
+{
+"mod": "+(161-180) to Armour",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "(47-52)% increased Projectile Speed",
+"slots": [
+"Quiver",
+"Wand"
+]
+},
+{
+"mod": "+(201-300) to Armour",
+"slots": [
+"Ring"
+]
+},
+{
+"mod": "+(301-375) to Armour",
+"slots": [
+"Shield"
+]
+},
+{
+"mod": "(35-38)% increased Impale Effect",
+"slots": [
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+}
+]
+},
+"Screaming Essence of Scorn": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "+(25-29)% to Global Critical Strike Multiplier",
+"slots": [
+"Amulet",
+"Quiver"
+]
+},
+{
+"mod": "(12-13)% reduced Enemy Stun Threshold",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "(31-39)% increased Stun Threshold",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "(23-26)% chance to Avoid being Stunned",
+"slots": [
+"Boots",
+"Gloves",
+"Helmet"
+]
+},
+{
+"mod": "(80-89)% increased Spell Critical Strike Chance",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Shield",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "+(15-17)% to Global Critical Strike Multiplier",
+"slots": [
+"Ring"
+]
+}
+]
+},
+"Shrieking Essence of Scorn": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "+(30-34)% to Global Critical Strike Multiplier",
+"slots": [
+"Amulet",
+"Quiver"
+]
+},
+{
+"mod": "(14-15)% reduced Enemy Stun Threshold",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "(40-45)% increased Stun Threshold",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "(27-30)% chance to Avoid being Stunned",
+"slots": [
+"Boots",
+"Gloves",
+"Helmet"
+]
+},
+{
+"mod": "(90-109)% increased Spell Critical Strike Chance",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Shield",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "+(18-20)% to Global Critical Strike Multiplier",
+"slots": [
+"Ring"
+]
+}
+]
+},
+"Deafening Essence of Scorn": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "+(35-41)% to Global Critical Strike Multiplier",
+"slots": [
+"Amulet",
+"Quiver"
+]
+},
+{
+"mod": "(16-17)% reduced Enemy Stun Threshold",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "(46-60)% increased Stun Threshold",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "(31-44)% chance to Avoid being Stunned",
+"slots": [
+"Boots",
+"Gloves",
+"Helmet"
+]
+},
+{
+"mod": "(165-179)% increased Spell Critical Strike Chance",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "(110-119)% increased Spell Critical Strike Chance",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Shield",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "+(21-25)% to Global Critical Strike Multiplier",
+"slots": [
+"Ring"
+]
+}
+]
+},
+"Screaming Essence of Envy": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 58,
+"essence": [
+{
+"mod": "(23-26)% increased Chaos Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(21-25)% to Chaos Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "Adds (61-103) to (149-193) Chaos Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (37-59) to (79-103) Chaos Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (11-15) to (27-33) Chaos Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Shrieking Essence of Envy": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "(27-30)% increased Chaos Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(26-30)% to Chaos Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "Adds (73-113) to (163-205) Chaos Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (43-67) to (89-113) Chaos Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (17-21) to (37-43) Chaos Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Deafening Essence of Envy": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "(31-34)% increased Chaos Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(31-35)% to Chaos Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Shield"
+]
+},
+{
+"mod": "Adds (89-131) to (181-229) Chaos Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (53-79) to (101-131) Chaos Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Adds (23-37) to (49-61) Chaos Damage to Attacks",
+"slots": [
+"Quiver"
+]
+}
+]
+},
+"Essence of Hysteria": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "150% increased total Recovery per second from Life Leech",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "Damage Penetrates 5% Elemental Resistances during any Flask Effect",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "25% increased Area of Effect",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "Drops Burning Ground while moving, dealing 2500 Fire Damage per second for 4 seconds",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "Cast Level 20 [FireBurstOnHit::20|Fire Burst] on Hit",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Socketed Gems deal 175 to 225 Added Fire Damage",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Socketed Gems deal 30% more Damage while on Low Life",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "Gain 15% of Physical Damage as Extra Fire Damage",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "Gain 10% of Physical Damage as Extra Fire Damage",
+"slots": [
+"Ring"
+]
+},
+{
+"mod": "Adds 60 to 100 Fire Damage if you've Blocked Recently",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Essence of Insanity": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "10% chance to Recover 10% of Mana when you use a Skill",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "10% increased Movement Speed during any Flask Effect",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "You gain [Onslaught] for 6 seconds when Hit",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "70% increased Mana Regeneration Rate while Shocked",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "Triggers Level 20 [SpectralSpirits::20|Spectral Spirits] when Equipped\n+3 to maximum number of Spectral Spirits",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Socketed Gems have 16% more Attack and Cast Speed",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Socketed Gems gain 50% of Physical Damage as extra Lightning Damage",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "Projectiles Pierce 2 additional Targets",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "You and your Minions prevent +60% of Reflected Damage",
+"slots": [
+"Ring"
+]
+},
+{
+"mod": "25% chance to gain a Power Charge when you Block",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Essence of Horror": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "(15-25)% chance to Crush on Hit",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "Gain Alchemist's Genius when you use a Flask",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "You take 10% reduced Extra Damage from Critical Strikes per Endurance Charge",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "5% reduced Elemental Damage Taken while stationary",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "16% chance to gain a Power, Frenzy or Endurance Charge on Kill",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Socketed Gems have +3.5% Critical Strike Chance",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "Socketed Gems deal 30% more Elemental Damage",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "8 to 12 Added Cold Damage per Frenzy Charge",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "4 to 7 Added Cold Damage per Frenzy Charge",
+"slots": [
+"Ring"
+]
+},
+{
+"mod": "Chill Enemies within 3 metres when you Block",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Essence of Delirium": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 74,
+"essence": [
+{
+"mod": "(6-7)% Chance to Block Spell Damage",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "+50% to Chaos Resistance during any Flask Effect",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "25% reduced Chaos Damage taken over time",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "Cannot be Poisoned",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "Your Hits inflict Decay, dealing 700 Chaos Damage per second for 8 seconds",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "Socketed Gems deal 30% more Damage over Time",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "+2 to Level of Socketed Aura Gems",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "25% increased Effect of your Marks",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "+(12-15)% to Damage over Time Multiplier",
+"slots": [
+"Ring"
+]
+},
+{
+"mod": "+15% Chance to Block Spell Damage while on Low Life",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Essence of Desolation": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 68,
+"essence": [
+{
+"mod": "(40-60)% increased Duration of Ailments of types you haven't inflicted Recently",
+"slots": [
+"Amulet"
+]
+},
+{
+"mod": "Equipped Magic Flasks have 30% increased effect on you if no Flasks are Adjacent to them",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "(70-90)% increased Global Defences if there are no Defence Modifiers on other Equipped Items",
+"slots": [
+"Body Armour"
+]
+},
+{
+"mod": "5% increased Movement Speed for each Enemy within 6 metres, up to a maximum of 50%",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "2% chance to deal Double Damage against Enemies for each type of Ailment you have inflicted on them",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "1% chance to deal Double Damage against Enemies for each type of Ailment you have inflicted on them",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "5% increased Attack and Cast Speed for each Enemy within 6 metres, up to a maximum of 30%",
+"slots": [
+"Gloves"
+]
+},
+{
+"mod": "+6 to Level of Socketed Gems while there is a single Gem Socketed in this Item",
+"slots": [
+"Helmet"
+]
+},
+{
+"mod": "Projectiles can Chain from any number of additional targets in Close Range",
+"slots": [
+"Quiver"
+]
+},
+{
+"mod": "Right ring slot: Shockwave has +1 to Cooldown Uses\nLeft ring slot: Skills supported by Unleash have +1 to maximum number of Seals",
+"slots": [
+"Ring"
+]
+},
+{
+"mod": "(2-4)% of Armour applies to Fire, Cold and Lightning Damage taken from Hits if you have Blocked Recently",
+"slots": [
+"Shield"
+]
+}
+]
+},
+"Essence of Trickery": {
+"desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
+"use": "Right click this item then left click a normal or rare item to apply it.",
+"stack": 10,
+"level": 82,
+"essence": [
+{
+"mod": "You are affected by [PlayerDelirious|Delirium Fog]",
+"slots": [
+"Belt"
+]
+}
+]
+},
+"Flesh of Xesht": {
+"desc": "Transforms a Breach Unique item to its alternate form",
+"use": "Right click this item then left click a valid Breach Unique item to transform it.",
+"stack": 10,
+"level": 1
+},
+"Timeless Karui Splinter": {
+"desc": "",
+"use": "Combine 100 Splinters to create a Timeless Karui Emblem.",
+"stack": 100,
+"level": 1
+},
+"Timeless Maraketh Splinter": {
+"desc": "",
+"use": "Combine 100 Splinters to create a Timeless Maraketh Emblem.",
+"stack": 100,
+"level": 1
+},
+"Timeless Eternal Empire Splinter": {
+"desc": "",
+"use": "Combine 100 Splinters to create a Timeless Eternal Emblem.",
+"stack": 100,
+"level": 1
+},
+"Timeless Templar Splinter": {
+"desc": "",
+"use": "Combine 100 Splinters to create a Timeless Templar Emblem.",
+"stack": 100,
+"level": 1
+},
+"Timeless Vaal Splinter": {
+"desc": "",
+"use": "Combine 100 Splinters to create a Timeless Vaal Emblem.",
+"stack": 100,
+"level": 1
+},
+"Simulacrum Splinter": {
+"desc": "",
+"use": "Combine 300 Splinters to create a Simulacrum.",
+"stack": 300,
+"level": 1
+},
+"Orb of Annulment": {
+"desc": "Removes a random modifier from an item",
+"use": "Right click this item then left click on a magic or rare item to apply it.",
+"stack": 20,
+"level": 35
+},
+"Ancient Orb": {
+"desc": "Reforges a unique equipment as another of the same item class",
+"use": "Right click this item then left click a unique item to apply it.",
+"stack": 20,
+"level": 35
+},
+"Fracturing Orb": {
+"desc": "Fracture a random modifier on a rare item with at least 4 modifiers, locking it in place",
+"use": "Right click this item then left click a rare item to apply it. Cannot be used on Influenced or Fractured items.",
+"stack": 20,
+"level": 68
+},
+"Mirror Shard": {
+"desc": "",
+"use": "A stack of 20 shards becomes a Mirror of Kalandra.",
+"stack": 20,
+"level": 35
+},
+"Fracturing Shard": {
+"desc": "",
+"use": "A stack of 20 shards becomes a Fracturing Orb.",
+"stack": 20,
+"level": 35
+},
+"Scorched Fossil": {
+"desc": "More Fire modifiers\r\nNo Cold modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Frigid Fossil": {
+"desc": "More Cold modifiers\r\nNo Fire modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Metallic Fossil": {
+"desc": "More Lightning modifiers\r\nNo Physical modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Jagged Fossil": {
+"desc": "More Physical modifiers\r\nNo Chaos modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Aberrant Fossil": {
+"desc": "More Chaos modifiers\r\nNo Lightning modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Pristine Fossil": {
+"desc": "More Life modifiers\r\nNo Defence modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Dense Fossil": {
+"desc": "More Defence modifiers\r\nNo Life Modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Corroded Fossil": {
+"desc": "More Physical Ailment or Chaos Ailment modifiers\r\nNo Elemental modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Prismatic Fossil": {
+"desc": "More Elemental modifiers\r\nNo Physical Ailment or Chaos Ailment modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Aetheric Fossil": {
+"desc": "More Caster modifiers\r\nFewer Attack modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Serrated Fossil": {
+"desc": "More Attack modifiers\r\nFewer Caster modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Lucent Fossil": {
+"desc": "More Mana modifiers\r\nNo Speed modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Shuddering Fossil": {
+"desc": "More Speed modifiers\r\nNo Mana modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Bound Fossil": {
+"desc": "More Minion, Aura or Curse modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Opulent Fossil": {
+"desc": "More Drop modifiers\r\nNo Tagless modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Deft Fossil": {
+"desc": "More Critical modifiers\r\nNo Attribute modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Fundamental Fossil": {
+"desc": "More Attribute modifiers\r\nNo Critical modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 20,
+"level": 1
+},
+"Faceted Fossil": {
+"desc": "More Gem modifiers",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 10,
+"level": 1
+},
+"Bloodstained Fossil": {
+"desc": "Corrupted\r\nHas a Corrupted implicit modifier",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 10,
+"level": 1
+},
+"Hollow Fossil": {
+"desc": "Has an Abyssal socket",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 10,
+"level": 1
+},
+"Fractured Fossil": {
+"desc": "Fracture a random modifier\r\nCannot be used on Influenced or Fractured items",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 10,
+"level": 1
+},
+"Glyphic Fossil": {
+"desc": "Has a Corrupt Essence modifier",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 10,
+"level": 1
+},
+"Tangled Fossil": {
+"desc": "Makes a random modifier type much more likely and prevents \r\nanother random modifier type\r\nEffects revealed once resonator is fully socketed",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 10,
+"level": 1
+},
+"Sanctified Fossil": {
+"desc": "Numeric modifier values are lucky\r\nHigh Level modifiers are more common",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 10,
+"level": 1
+},
+"Gilded Fossil": {
+"desc": "Item is overvalued by vendors",
+"use": "Place in a Resonator to influence item crafting.",
+"stack": 10,
+"level": 1
+},
+"Primitive Chaotic Resonator": {
+"desc": "Reforges a rare item with new random modifiers",
+"use": "Right click this item then left click a rare item to apply it.",
+"stack": 1,
+"level": 34
+},
+"Potent Chaotic Resonator": {
+"desc": "Reforges a rare item with new random modifiers",
+"use": "Right click this item then left click a rare item to apply it.",
+"stack": 1,
+"level": 34
+},
+"Powerful Chaotic Resonator": {
+"desc": "Reforges a rare item with new random modifiers",
+"use": "Right click this item then left click a rare item to apply it.",
+"stack": 1,
+"level": 34
+},
+"Prime Chaotic Resonator": {
+"desc": "Reforges a rare item with new random modifiers",
+"use": "Right click this item then left click a rare item to apply it.",
+"stack": 1,
+"level": 68
+},
+"Turbulent Catalyst": {
+"desc": "Adds quality that enhances Elemental Damage modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower item level, non-unique jewellery. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Imbued Catalyst": {
+"desc": "Adds quality that enhances Caster modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower item level, non-unique jewellery. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Abrasive Catalyst": {
+"desc": "Adds quality that enhances Attack modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower item level, non-unique jewellery. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Tempering Catalyst": {
+"desc": "Adds quality that enhances Defence modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower item level, non-unique jewellery. The maximum quality is 20%.",
+"stack": 20,
+"level": 68
+},
+"Fertile Catalyst": {
+"desc": "Adds quality that enhances Life and Mana modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower item level, non-unique jewellery. The maximum quality is 20%.",
+"stack": 20,
+"level": 68
+},
+"Prismatic Catalyst": {
+"desc": "Adds quality that enhances Resistance modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower item level, non-unique jewellery. The maximum quality is 20%.",
+"stack": 20,
+"level": 68
+},
+"Intrinsic Catalyst": {
+"desc": "Adds quality that enhances Attribute modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower item level, non-unique jewellery. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Noxious Catalyst": {
+"desc": "Adds quality that enhances Physical and Chaos Damage modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower item level, non-unique jewellery. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Accelerating Catalyst": {
+"desc": "Adds quality that enhances Speed modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower item level, non-unique jewellery. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Unstable Catalyst": {
+"desc": "Adds quality that enhances Critical modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower item level, non-unique jewellery. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Tainted Catalyst": {
+"desc": "Applies a random quality type and amount of quality to a Corrupted ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a Corrupted ring, amulet or belt to apply it. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Sinistral Catalyst": {
+"desc": "Adds quality that enhances Prefix modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower item level, non-unique jewellery. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Dextral Catalyst": {
+"desc": "Adds quality that enhances Suffix modifiers on a ring, amulet or belt\r\nReplaces other quality types",
+"use": "Right click this item then left click a ring, amulet or belt to apply it. Has greater effect on lower item level, non-unique jewellery. The maximum quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Ritual Splinter": {
+"desc": "",
+"use": "Combine 100 Splinters to create a Ritual Vessel.",
+"stack": 100,
+"level": 1
+},
+"Ritual Vessel": {
+"desc": "Stores the monsters slain for the first time from a completed Ritual Altar for future use",
+"use": "Right-click this item then left-click a Ritual Altar to store the monsters from the completed Ritual in this item. Cannot be used on a Ritual in a map opened with a Blood-Filled Vessel.",
+"stack": 10,
+"level": 1
+},
+"Lesser Eldritch Ember": {
+"desc": "Adds a Lesser Searing Exarch implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Eater of Worlds implicit modifiers",
+"use": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+"stack": 10,
+"level": 68
+},
+"Greater Eldritch Ember": {
+"desc": "Adds a Greater Searing Exarch implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Eater of Worlds implicit modifiers",
+"use": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+"stack": 10,
+"level": 73
+},
+"Grand Eldritch Ember": {
+"desc": "Adds a Grand Searing Exarch implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Eater of Worlds implicit modifiers",
+"use": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+"stack": 10,
+"level": 78
+},
+"Exceptional Eldritch Ember": {
+"desc": "Adds an Exceptional Searing Exarch implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Eater of Worlds implicit modifiers",
+"use": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+"stack": 10,
+"level": 81
+},
+"Lesser Eldritch Ichor": {
+"desc": "Adds a Lesser Eater of Worlds implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Searing Exarch implicit modifiers",
+"use": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+"stack": 10,
+"level": 68
+},
+"Greater Eldritch Ichor": {
+"desc": "Adds a Greater Eater of Worlds implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Searing Exarch implicit modifiers",
+"use": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+"stack": 10,
+"level": 73
+},
+"Grand Eldritch Ichor": {
+"desc": "Adds a Grand Eater of Worlds implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Searing Exarch implicit modifiers",
+"use": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+"stack": 10,
+"level": 78
+},
+"Exceptional Eldritch Ichor": {
+"desc": "Adds an Exceptional Eater of Worlds implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Searing Exarch implicit modifiers",
+"use": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+"stack": 10,
+"level": 81
+},
+"Orb of Conflict": {
+"desc": "Unpredictably raise the strength of one Searing Exarch or Eater of Worlds modifier on an item and lower the strength of another\r\nLesser modifiers that have their strength lowered will be removed",
+"use": "Right click this item then left click a non-unique item to apply it. Can only be used on items that have both a Searing Exarch and an Eater of Worlds implicit modifier. The chance of raising or lowering a modifier depends on its relative strength.",
+"stack": 10,
+"level": 1
+},
+"Valdo's Puzzle Box": {
+"desc": "Contains a Mysterious Map with a Foil Unique Reward",
+"use": "Right click to open.",
+"stack": 10,
+"level": 83
+},
+"Fragment of the Phoenix": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 84
+},
+"Fragment of the Minotaur": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 84
+},
+"Fragment of the Chimera": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 84
+},
+"Fragment of the Hydra": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 84
+},
+"Divine Vessel": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 68
+},
+"Royal Visage": {
+"desc": "Enchants a Map to contain [AlluringIncursion|Alluring] Temporal Incursions ",
+"use": "Right click this item then left click\na tier 16 non-Unique Map item to use.",
+"stack": 10,
+"level": 68
+},
+"Fragment of Enslavement": {
+"desc": "",
+"use": "Can be used in a personal Map Device.",
+"stack": 10,
+"level": 80
+},
+"Fragment of Eradication": {
+"desc": "",
+"use": "Can be used in a personal Map Device.",
+"stack": 10,
+"level": 80
+},
+"Fragment of Constriction": {
+"desc": "",
+"use": "Can be used in a personal Map Device.",
+"stack": 10,
+"level": 80
+},
+"Fragment of Purification": {
+"desc": "",
+"use": "Can be used in a personal Map Device.",
+"stack": 10,
+"level": 80
+},
+"Fragment of Terror": {
+"desc": "",
+"use": "Can be used in a personal Map Device.",
+"stack": 10,
+"level": 80
+},
+"Fragment of Emptiness": {
+"desc": "",
+"use": "Can be used in a personal Map Device.",
+"stack": 10,
+"level": 80
+},
+"Fragment of Shape": {
+"desc": "",
+"use": "Can be used in a personal Map Device.",
+"stack": 10,
+"level": 80
+},
+"Fragment of Knowledge": {
+"desc": "",
+"use": "Can be used in a personal Map Device.",
+"stack": 10,
+"level": 80
+},
+"Al-Hezmin's Crest": {
+"desc": "",
+"use": "Can be used in a personal Map Device.",
+"stack": 10,
+"level": 80
+},
+"Baran's Crest": {
+"desc": "",
+"use": "Can be used in a personal Map Device.",
+"stack": 10,
+"level": 80
+},
+"Drox's Crest": {
+"desc": "",
+"use": "Can be used in a personal Map Device.",
+"stack": 10,
+"level": 80
+},
+"Veritania's Crest": {
+"desc": "",
+"use": "Can be used in a personal Map Device.",
+"stack": 10,
+"level": 80
+},
+"Timeless Karui Emblem": {
+"desc": "10% increased Experience Gain\r\n20% increased Reward progress from Monster Kills\r\nMonsters deal 10% increased Damage\r\nMonsters have 10% increased Toughness for each time they have been Revived\r\nMonsters gain 50% increased Critical Strike Chance each time they are Revived\r\nMonsters gain +5% to Critical Strike Multiplier each time they are Revived",
+"use": "Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 75
+},
+"Timeless Maraketh Emblem": {
+"desc": "10% increased Experience Gain\r\n20% increased Reward progress from Monster Kills\r\nMonsters deal 10% increased Damage\r\nMonsters have 10% increased Toughness for each time they have been Revived\r\nMonsters have 5% increased Attack and Cast Speed for each time they have been Revived",
+"use": "Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 75
+},
+"Timeless Eternal Emblem": {
+"desc": "10% increased Experience Gain\r\n20% increased Reward progress from Monster Kills\r\nMonsters deal 10% increased Damage\r\nMonsters have 10% increased Toughness for each time they have been Revived\r\nMonsters have 10% increased Accuracy Rating for each time they have been Revived\r\nMonsters have 5% increased Area of Effect for each time they have been Revived",
+"use": "Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 75
+},
+"Timeless Templar Emblem": {
+"desc": "10% increased Experience Gain\r\n20% increased Reward progress from Monster Kills\r\nMonsters deal 10% increased Damage\r\nMonsters have 10% increased Toughness for each time they have been Revived\r\nMonsters Penetrate 3% of Enemy Elemental Resistances for each time\nthey have been Revived",
+"use": "Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 75
+},
+"Timeless Vaal Emblem": {
+"desc": "10% increased Experience Gain\r\n20% increased Reward progress from Monster Kills\r\nMonsters deal 10% increased Damage\r\nMonsters have 10% increased Toughness for each time they have been Revived\r\nMonsters gain 5% of Physical Damage as Extra Chaos Damage for each time\nthey have been Revived",
+"use": "Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 75
+},
+"Simulacrum": {
+"desc": "",
+"use": "Open a Delirium portal by using this item in a personal Map Device. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 75
+},
+"Offering to the Goddess": {
+"desc": "",
+"use": "Travel to the Aspirants' Plaza and spend this item to open the Eternal Labyrinth.",
+"stack": 1,
+"level": 1
+},
+"Tribute to the Goddess": {
+"desc": "The Labyrinth's rewards have been enriched.",
+"use": "Travel to the Aspirants' Plaza and spend this item to open the Eternal Labyrinth of Fortune.",
+"stack": 1,
+"level": 1
+},
+"Gift to the Goddess": {
+"desc": "The Divine Font can be used additional times.",
+"use": "Travel to the Aspirants' Plaza and spend this item to open the Eternal Labyrinth of Opportunity.",
+"stack": 1,
+"level": 1
+},
+"Dedication to the Goddess": {
+"desc": "The Divine Font will offer additional Corrupted Gem crafting options.",
+"use": "Travel to the Aspirants' Plaza and spend this item to open the Eternal Labyrinth of Potential.",
+"stack": 1,
+"level": 1
+},
+"Voidborn Reliquary Key": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 68
+},
+"Stacked Deck": {
+"desc": "A stack of unknown divination cards",
+"use": "Right click to take a divination card out of the deck.  \n Hold Ctrl + Right Click to repeatedly move a card from the stack into your inventory.",
+"stack": 20,
+"level": 50
+},
+"Tainted Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to enchant corrupted Rings, Amulets or Blighted Maps.",
+"stack": 10,
+"level": 1
+},
+"Reflective Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to enchant mirrored Rings, Amulets or Blighted Maps.",
+"stack": 10,
+"level": 1
+},
+"Prismatic Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to enchant Amulets.",
+"stack": 10,
+"level": 80
+},
+"Clear Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 1
+},
+"Sepia Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 10
+},
+"Amber Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 19
+},
+"Verdant Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 27
+},
+"Teal Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 36
+},
+"Azure Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 44
+},
+"Indigo Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 48
+},
+"Violet Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 52
+},
+"Crimson Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 60
+},
+"Black Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 68
+},
+"Opalescent Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 73
+},
+"Silver Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 78
+},
+"Golden Oil": {
+"desc": "",
+"use": "Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.",
+"stack": 10,
+"level": 80
+},
+"Crusader's Exalted Orb": {
+"desc": "Adds Crusader influence and a new Crusader modifier to a rare item",
+"use": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+"stack": 20,
+"level": 1
+},
+"Redeemer's Exalted Orb": {
+"desc": "Adds Redeemer influence and a new Redeemer modifier to a rare item",
+"use": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+"stack": 20,
+"level": 1
+},
+"Hunter's Exalted Orb": {
+"desc": "Adds Hunter influence and a new Hunter modifier to a rare item",
+"use": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+"stack": 20,
+"level": 1
+},
+"Warlord's Exalted Orb": {
+"desc": "Adds Warlord influence and a new Warlord modifier to a rare item",
+"use": "Right click this item then left click a high-level rare item with no influence to apply it. Rare items can have up to six random modifiers.",
+"stack": 20,
+"level": 1
+},
+"Awakener's Orb": {
+"desc": "Destroys an item, applying its influence to another of the same item class\r\nThe second item is reforged as a rare item with both influence types and new modifiers",
+"use": "Right click this item, then left click the item you wish to take the influence from, then left click an item of the same item class you wish to apply it to.",
+"stack": 10,
+"level": 1
+},
+"Rogue's Marker": {
+"desc": "Creates a portal to the Rogue Harbour from a Town or Hideout\nUsed as Currency for services in the Rogue Harbour",
+"use": "Right click on this item while in a Town or Hideout to use it.",
+"stack": 50000,
+"level": 48
+},
+"Orb of Dominance": {
+"desc": "Removes one Influenced Modifier from an item with at least two Influenced\r\nModifiers and upgrades another Influenced Modifier\r\nUpgrading a modifier of the highest tier transforms the\r\nmodifier into an Elevated Modifier\r\nAttempting to upgrade an Elevated Modifier rerolls its values\r\nCan be used on Body Armours, Boots, Gloves and Helmets",
+"use": "Right click this item then left click an item with at least two Influenced Modifiers to apply it.",
+"stack": 10,
+"level": 1
+},
+"The Maven's Writ": {
+"desc": "",
+"use": "Open a portal to Absence of Mercy and Empathy by using this item in a personal Map Device. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 83
+},
+"Crescent Splinter": {
+"desc": "",
+"use": "Combine 10 Crescent Splinters to create The Maven's Writ.",
+"stack": 10,
+"level": 83
+},
+"Cosmic Fragment": {
+"desc": "The Shaper's Realm is level 85\r\nThe Shaper's full power is unleashed in The Shaper's Realm",
+"use": "Use four of these in a personal Map Device to open Portals to The Shaper's Realm. Can only be used once.",
+"stack": 1,
+"level": 84
+},
+"Decaying Fragment": {
+"desc": "The Shaper's Realm is level 85\r\nThe Shaper's and The Elder's full power are unleashed in The Shaper's Realm",
+"use": "Use four of these in a personal Map Device to open Portals to The Shaper's Realm. Can only be used once.",
+"stack": 1,
+"level": 84
+},
+"Awakening Fragment": {
+"desc": "The Eye of the Storm is level 85\r\nSirus' full power is unleashed in The Eye of the Storm",
+"use": "Use four of these in a personal Map Device to open Portals to The Eye of the Storm. Can only be used once.",
+"stack": 1,
+"level": 84
+},
+"Synthesising Fragment": {
+"desc": "The Cortex is level 85\r\nVenarius' full power is unleashed in the Cortex",
+"use": "Use four of these in a personal Map Device to open Portals to The Cortex. Can only be used once.",
+"stack": 1,
+"level": 84
+},
+"Reality Fragment": {
+"desc": "The Absence of Mercy and Empathy is level 85\r\nThe Maven's full power is unleashed in The Absence of Mercy and Empathy",
+"use": "Use four of these in a personal Map Device to open Portals to The Absence of Mercy and Empathy. Can only be used once.",
+"stack": 1,
+"level": 84
+},
+"Devouring Fragment": {
+"desc": "The Absence of Symmetry and Harmony is level 85\r\nThe Eater of Worlds' full power is unleashed in The Absence of Symmetry and Harmony",
+"use": "Use four of these in a personal Map Device to open Portals to The Absence of Symmetry and Harmony. Can only be used once.",
+"stack": 1,
+"level": 84
+},
+"Blazing Fragment": {
+"desc": "The Absence of Patience and Wisdom is level 85\r\nThe Searing Exarch's full power is unleashed in The Absence of Patience and Wisdom",
+"use": "Use four of these in a personal Map Device to open Portals to The Absence of Patience and Wisdom. Can only be used once.",
+"stack": 1,
+"level": 84
+},
+"Sacred Blossom": {
+"desc": "",
+"use": "Open a portal to the Sacred Grove by using this item in a personal Map Device. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 1
+},
+"Hivebrain Gland": {
+"desc": "",
+"use": "Open a portal to the Hive Colony by using this item in a personal Map Device. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 1
+},
+"The Black Barya": {
+"desc": "",
+"use": "Open a portal into the Black Barya by using this item in a personal Map Device. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 1
+},
+"Cursed Poppet": {
+"desc": "",
+"use": "Open a portal to Tenebria by using this item in a personal Map Device. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 1
+},
+"Enkindling Orb": {
+"desc": "Adds an enchantment to a utility flask that will improve it\r\nbut prevent it from gaining charges during its effect\r\nReplaces any existing enchantment",
+"use": "Right click this item then left click a flask to apply it.",
+"stack": 20,
+"level": 40
+},
+"Instilling Orb": {
+"desc": "Adds an enchantment to a utility flask that will cause\r\nit to be used when certain conditions are met\r\nReplaces any existing enchantment",
+"use": "Right click this item then left click a flask to apply it.",
+"stack": 20,
+"level": 40
+},
+"Tainted Chromatic Orb": {
+"desc": "Unpredictably reforges the colour of sockets on a corrupted item",
+"use": "Right click this item then left click a corrupted socketed item to apply it. The item's quality increases the chances of non-white sockets.",
+"stack": 20,
+"level": 2
+},
+"Tainted Orb of Fusing": {
+"desc": "Unpredictably adds or removes a link to the largest group of linked sockets on a corrupted item",
+"use": "Right click this item then left click a corrupted socketed item to apply it.",
+"stack": 20,
+"level": 50
+},
+"Tainted Jeweller's Orb": {
+"desc": "Unpredictably adds or removes a socket on a corrupted item",
+"use": "Right click this item then left click a corrupted socketed item to apply it.",
+"stack": 20,
+"level": 8
+},
+"Tainted Chaos Orb": {
+"desc": "Unpredictably either reforges a corrupted rare item with new random modifiers or removes all of its modifiers",
+"use": "Right click this item then left click a corrupted rare item to apply it.",
+"stack": 20,
+"level": 12
+},
+"Tainted Exalted Orb": {
+"desc": "Unpredictably adds or removes a modifier on a corrupted rare item",
+"use": "Right click this item then left click a corrupted rare item to apply it. Rare items can have up to six random modifiers.",
+"stack": 20,
+"level": 35
+},
+"Tainted Mythic Orb": {
+"desc": "Unpredictably either upgrades a corrupted item to unique rarity or destroys it",
+"use": "Right click this item then left click a corrupted item to apply it. Cannot apply to Maps or Vestigial items.",
+"stack": 20,
+"level": 2
+},
+"Tainted Armourer's Scrap": {
+"desc": "Randomises the quality of a corrupted armour",
+"use": "Right click this item then left click a corrupted armour to apply it. The maximum random quality is 20%.",
+"stack": 40,
+"level": 1
+},
+"Tainted Blacksmith's Whetstone": {
+"desc": "Randomises the quality of a corrupted weapon",
+"use": "Right click this item then left click a corrupted weapon to apply it. The maximum random quality is 20%.",
+"stack": 20,
+"level": 1
+},
+"Tainted Divine Teardrop": {
+"desc": "Unpredictably raises or lowers the tier of each modifier on a corrupted rare item",
+"use": "Right click this item then left click a corrupted rare item to apply it.",
+"stack": 10,
+"level": 68
+},
+"Volatile Vaal Orb": {
+"desc": "Unpredictably either randomises the values of random modifiers on a\nunique equipment and corrupts it, or destroys it",
+"use": "Right click this item then left click a unique item to apply it. Corrupted items cannot be modified again.",
+"stack": 20,
+"level": 68
+},
+"Eldritch Chaos Orb": {
+"desc": "If The Searing Exarch is dominant, reroll prefix modifiers\r\nIf The Eater of Worlds is dominant, reroll suffix modifiers",
+"use": "Right click this item then left click a rare item with The Searing Exarch or The Eater of Worlds dominance to apply it.",
+"stack": 20,
+"level": 78
+},
+"Eldritch Exalted Orb": {
+"desc": "If The Searing Exarch is dominant, add a prefix modifier\r\nIf The Eater of Worlds is dominant, add a suffix modifier",
+"use": "Right click this item then left click a rare item with The Searing Exarch or The Eater of Worlds dominance to apply it. Rare items can have up to six random modifiers.",
+"stack": 20,
+"level": 78
+},
+"Eldritch Orb of Annulment": {
+"desc": "If The Searing Exarch is dominant, remove a prefix modifier\r\nIf The Eater of Worlds is dominant, remove a suffix modifier",
+"use": "Right click this item then left click on a magic or rare item with The Searing Exarch or The Eater of Worlds dominance to apply it.",
+"stack": 20,
+"level": 78
+},
+"Echo of Trauma": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 1
+},
+"Echo of Reverence": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 1
+},
+"Echo of Loneliness": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 1
+},
+"Memory of Trauma": {
+"desc": "Adds a Memory Trace to the Atlas leading to the Incarnation of Fear",
+"use": "Right click this item and then left click a Map on your Atlas to apply a Memory Trace to that quadrant.",
+"stack": 10,
+"level": 1
+},
+"Memory of Reverence": {
+"desc": "Adds a Memory Trace to the Atlas leading to the Incarnation of Dread",
+"use": "Right click this item and then left click a Map on your Atlas to apply a Memory Trace to that quadrant.",
+"stack": 10,
+"level": 1
+},
+"Memory of Loneliness": {
+"desc": "Adds a Memory Trace to the Atlas leading to the Incarnation of Neglect",
+"use": "Right click this item and then left click a Map on your Atlas to apply a Memory Trace to that quadrant.",
+"stack": 10,
+"level": 1
+},
+"Wild Crystallised Lifeforce": {
+"desc": "",
+"use": "Can be used at the Horticrafting bench in your hideout.",
+"stack": 50000,
+"level": 1
+},
+"Vivid Crystallised Lifeforce": {
+"desc": "",
+"use": "Can be used at the Horticrafting bench in your hideout.",
+"stack": 50000,
+"level": 1
+},
+"Primal Crystallised Lifeforce": {
+"desc": "",
+"use": "Can be used at the Horticrafting bench in your hideout.",
+"stack": 50000,
+"level": 1
+},
+"Sacred Crystallised Lifeforce": {
+"desc": "",
+"use": "Can be used at the Horticrafting bench in your hideout.",
+"stack": 10,
+"level": 1
+},
+"Crystallised Rancour": {
+"desc": "",
+"use": "Can be used at the Horticrafting bench in your hideout.",
+"stack": 10,
+"level": 1
+},
+"Hinekora's Lock": {
+"desc": "Allows an item to foresee the result of the next Currency item used on it\nModifying the item in any way removes the ability to foresee",
+"use": "Right click this item then left click an item to apply it.",
+"stack": 10,
+"level": 40
+},
+"Omen of Amelioration": {
+"desc": "Will be Consumed when you Die\nto prevent 75% of Experience loss",
+"use": "Each player can only consume one Omen in each combat area.",
+"stack": 1,
+"level": 46
+},
+"Omen of Return": {
+"desc": "Will be Consumed when you Die\nto create a Portal to Town",
+"use": "Each player can only consume one Omen in each combat area.",
+"stack": 1,
+"level": 1
+},
+"Omen of Death-dancing": {
+"desc": "Will be Consumed when you reach 25% of Life\nto grant 75% chance to Avoid Damage from Hits for 4 seconds",
+"use": "Each player can only consume one Omen in each combat area.",
+"stack": 1,
+"level": 1
+},
+"Omen of Refreshment": {
+"desc": "Will be Consumed when you reach 25% of Life\nto Refill all Flasks",
+"use": "Each player can only consume one Omen in each combat area.",
+"stack": 1,
+"level": 1
+},
+"Omen of the Soul Devourer": {
+"desc": "Will be Consumed when you level up\nto grant Soul Eater for 5 minutes",
+"use": "Each player can only consume one Omen in each combat area.",
+"stack": 1,
+"level": 1
+},
+"Omen of Fortune": {
+"desc": "Will be Consumed when you use an Orb of Chance\non an item which can become Unique to ensure it does so",
+"use": "Each player can only consume one Omen in each combat area.",
+"stack": 1,
+"level": 80
+},
+"Omen of the Jeweller": {
+"desc": "Will be Consumed when you use a Jeweller's Orb\non an item to ensure maximum Sockets",
+"use": "Each player can only consume one Omen in each combat area.",
+"stack": 1,
+"level": 68
+},
+"Omen of Connections": {
+"desc": "Will be Consumed when you use an Orb of Fusing\non an item to ensure maximum Links",
+"use": "Each player can only consume one Omen in each combat area.",
+"stack": 1,
+"level": 75
+},
+"Omen of Trichromatism": {
+"desc": "Will be Consumed when you use a Chromatic Orb\non an item to guarantee at least one Red, Green and Blue Socket",
+"use": "Each player can only consume one Omen in each combat area.",
+"stack": 1,
+"level": 75
+},
+"Omen of Adrenaline": {
+"desc": "Will be Consumed when you reach 25% of Life\nto grant Adrenaline for 10 seconds",
+"use": "Each player can only consume one Omen in each combat area.",
+"stack": 1,
+"level": 30
+},
+"Omen of Death's Door": {
+"desc": "Will be Consumed when you reach 25% of Life\nto grant Shade Form for 3 seconds",
+"use": "Each player can only consume one Omen in each combat area.",
+"stack": 1,
+"level": 30
+},
+"Omen of Brilliance": {
+"desc": "Will be Consumed when you level up\nto grant 100% increased Experience gained for 60 seconds",
+"use": "Each player can only consume one Omen in each combat area.",
+"stack": 1,
+"level": 1
+},
+"An Audience With The King": {
+"desc": "",
+"use": "Open a portal to the Crux of Nothingness by using this item in a personal Map Device. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 81
+},
+"Reflecting Mist": {
+"desc": "Unpredictably reflects a rare amulet or ring, breaking it\ninto two mirrored halves with reflected modifiers",
+"use": "Right click this item then left click a rare amulet or ring to reflect it. Cannot be used on Veiled or Influenced items.",
+"stack": 10,
+"level": 40
+},
+"Syndicate Medallion": {
+"desc": "",
+"use": "Open a portal to the Mastermind's Lair by using this item in a personal Map Device. Can only be used once. While viewing your Atlas, Right-click this item to pinpoint its location.",
+"stack": 1,
+"level": 80
+},
+"Soul Core of Intellect": {
+"desc": "Corrupts a level 20 Skill Gem, Imbuing it with a random Intelligence Support effect",
+"use": "Right click this item then left click a level 20 Skill Gem to corrupt it. The added Support effect will always be valid for the Skill Gem. Corrupted items cannot be modified again.",
+"stack": 10,
+"level": 68
+},
+"Soul Core of Might": {
+"desc": "Corrupts a level 20 Skill Gem, Imbuing it with a random Strength Support effect",
+"use": "Right click this item then left click a level 20 Skill Gem to corrupt it. The added Support effect will always be valid for the Skill Gem. Corrupted items cannot be modified again.",
+"stack": 10,
+"level": 68
+},
+"Soul Core of Finesse": {
+"desc": "Corrupts a level 20 Skill Gem, Imbuing it with a random Dexterity Support effect",
+"use": "Right click this item then left click a level 20 Skill Gem to corrupt it. The added Support effect will always be valid for the Skill Gem. Corrupted items cannot be modified again.",
+"stack": 10,
+"level": 68
+},
+"Soul Core of Instability": {
+"desc": "Corrupts a level 20 Skill Gem, Imbuing it with a random Support effect",
+"use": "Right click this item then left click a level 20 Skill Gem to corrupt it. The added Support effect will always be valid for the Skill Gem. Corrupted items cannot be modified again.",
+"stack": 10,
+"level": 68
+},
+"Traumatic Fragment": {
+"desc": "The Moment of Trauma is level 85\r\nThe Incarnation of Fear's full power is unleashed in The Moment of Trauma",
+"use": "Use four of these in a personal Map Device to open Portals to The Moment of Trauma. Can only be used once.",
+"stack": 1,
+"level": 84
+},
+"Reverent Fragment": {
+"desc": "The Moment of Reverence is level 85\r\nThe Incarnation of Dread's full power is unleashed in The Moment of Reverence",
+"use": "Use four of these in a personal Map Device to open Portals to The Moment of Reverence. Can only be used once.",
+"stack": 1,
+"level": 84
+},
+"Lonely Fragment": {
+"desc": "The Moment of Loneliness is level 85\r\nThe Incarnation of Neglect's full power is unleashed in The Moment of Loneliness",
+"use": "Use four of these in a personal Map Device to open Portals to The Moment of Loneliness. Can only be used once.",
+"stack": 1,
+"level": 84
+},
+"Zorath's Eye of Malevolence": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 1
+},
+"Zorath's Eye of Authority": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 1
+},
+"Zorath's Eye of the Inevitable": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 1
+},
+"Zorath's Eye of the Endless": {
+"desc": "",
+"use": "",
+"stack": null,
+"level": 1
+}
+}

@@ -1,5 +1,6 @@
 // PoE Crafting: ceny z data/prices.json (aktualizowane przez GitHub Actions)
 const state = { data: null, cat: "Waluty", q: "", inDiv: false };
+window.poeState = state;
 
 const $ = (id) => document.getElementById(id);
 
@@ -71,6 +72,7 @@ async function loadFarming() {
     return;
   }
   const byId = Object.fromEntries(state.data.items.map((i) => [i.id, i]));
+  window.poeStrategies = s;
   $("farmNote").textContent = `Liga ${s.league} · stan na ${s.updated}. ${s.note}`;
   const list = (arr) => `<ul>${arr.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;
   $("farmList").innerHTML = s.strategies

@@ -14,6 +14,7 @@
 
 <nav class="tabs">
   <button class="tab active" data-tab="prices">Ceny</button>
+  <button class="tab" data-tab="chat">Pomocnik</button>
   <button class="tab" data-tab="farming">Farming</button>
   <button class="tab" data-tab="roadmap">Plan</button>
 </nav>
@@ -31,6 +32,22 @@
     </table>
   </section>
 
+  <section id="chat" class="panel">
+    <div id="chatSetup" class="setup">
+      <h2>Pomocnik craftowania</h2>
+      <p>Czat z Claude, który zna aktualne ceny z tej strony i umie szukać w sieci. Potrzebny jest klucz API Anthropic: załóż go na <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a> (płatność za użycie, osobno od subskrypcji Claude). Wyszukiwanie w sieci trzeba też włączyć w ustawieniach Console.</p>
+      <p class="cat">Klucz zostaje tylko w tej przeglądarce, na tym urządzeniu. Nie trafia do repo ani nigdzie indziej poza API Anthropic.</p>
+      <div class="controls"><input id="chatKey" type="password" placeholder="sk-ant-..." autocomplete="off"><button id="chatSaveKey" class="btn">Zapisz</button></div>
+    </div>
+    <div id="chatLog" class="chat-log"></div>
+    <p id="chatError" class="error" hidden></p>
+    <form id="chatForm" class="chat-form" hidden>
+      <textarea id="chatInput" rows="2" placeholder="Zapytaj o craft, koszt, strategię…"></textarea>
+      <button class="btn" type="submit">Wyślij</button>
+    </form>
+    <div class="chat-tools"><button id="chatClear" class="link">Wyczyść rozmowę</button> · <button id="chatForget" class="link">Usuń klucz z urządzenia</button></div>
+  </section>
+
   <section id="farming" class="panel">
     <p id="farmNote" class="cat"></p>
     <div id="farmList"></div>
@@ -41,6 +58,7 @@
     <ol class="roadmap">
       <li class="done"><b>Ceny walut</b>: automatycznie z poe.ninja co godzinę, bieżąca liga.</li>
       <li class="done"><b>Strategie farmienia</b>: trudność, build, potrzebne rzeczy, wskazówki i ceny kluczowych przedmiotów na żywo.</li>
+      <li class="done"><b>Pomocnik craftowania</b>: czat z Claude, który zna aktualne ceny i strategie.</li>
       <li><b>Kalkulator szans</b>: baza + item level + wybrane mody → szansa na próbę, średnia liczba prób i koszt (dane modów z RePoE).</li>
       <li><b>Poradnik metod</b>: porównanie metod (chaos, alteracje, esencje, fossile, harvest…) dla danego celu i wybór najtańszej.</li>
       <li><b>Dobre strategie</b>: koszt craftu vs cena gotowego itemu → crafty, które się opłacają.</li>
@@ -56,5 +74,6 @@
 </div>
 
 <script src="app.js"></script>
+<script src="chat.js"></script>
 </body>
 </html>

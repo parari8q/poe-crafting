@@ -115,3 +115,7 @@ td { padding: 6px 4px; border-bottom: 1px solid #241e18; vertical-align: middle;
 .chat-form textarea { flex: 1; min-width: 0; resize: vertical; padding: 10px 12px; font: inherit; background: var(--bg); color: var(--text); border: 1px solid var(--line); border-radius: 6px; }
 .chat-tools { text-align: center; color: var(--muted); font-size: 13px; margin-top: 8px; }
 .error { color: var(--down); font-size: 14px; }
+.ask-input { width: 100%; padding: 10px 12px; font: inherit; background: var(--bg); color: var(--text); border: 1px solid var(--line); border-radius: 6px; resize: vertical; }
+.ask-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 14px; }
+.ask-chips .chip { text-align: left; }
+.btn.wide { width: 100%; padding: 12px; font-size: 15px; }

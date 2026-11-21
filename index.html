@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PoE Crafting</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>PoE Crafting</h1>
+  <div id="meta" class="meta">Ładowanie…</div>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" data-tab="prices">Ceny</button>
+  <button class="tab" data-tab="roadmap">Plan</button>
+</nav>
+
+<main>
+  <section id="prices" class="panel active">
+    <div class="controls">
+      <input id="search" type="search" placeholder="Szukaj (np. vaal, essence of greed)…" autocomplete="off">
+      <label class="toggle"><input id="inDiv" type="checkbox"> w divine</label>
+    </div>
+    <div id="cats" class="chips"></div>
+    <table>
+      <thead><tr><th>Przedmiot</th><th class="num">Cena</th><th class="num">7 dni</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </section>
+
+  <section id="roadmap" class="panel">
+    <h2>Plan rozwoju</h2>
+    <ol class="roadmap">
+      <li class="done"><b>Ceny walut</b>: automatycznie z poe.ninja co godzinę, bieżąca liga.</li>
+      <li><b>Kalkulator szans</b>: baza + item level + wybrane mody → szansa na próbę, średnia liczba prób i koszt (dane modów z RePoE).</li>
+      <li><b>Poradnik metod</b>: porównanie metod (chaos, alteracje, esencje, fossile, harvest…) dla danego celu i wybór najtańszej.</li>
+      <li><b>Dobre strategie</b>: koszt craftu vs cena gotowego itemu → crafty, które się opłacają.</li>
+    </ol>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

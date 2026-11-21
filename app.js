@@ -63,6 +63,7 @@ async function load() {
 const DIFF = ["", "bardzo łatwa", "łatwa", "średnia", "trudna", "bardzo trudna"];
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
+const farm = { f: "all", sort: "diff", render: () => {} };
 async function loadFarming() {
   let s;
   try {
@@ -75,7 +76,11 @@ async function loadFarming() {
   window.poeStrategies = s;
   $("farmNote").textContent = `Liga ${s.league} · stan na ${s.updated}. ${s.note}`;
   const list = (arr) => `<ul>${arr.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;
-  $("farmList").innerHTML = s.strategies
+  farm.all = s.strategies;
+  farm.render = () => {
+  const pass = (st) => farm.f === "all" || (farm.f === "easy" ? st.difficulty <= 2 : farm.f === "mid" ? st.difficulty === 3 : st.difficulty >= 4);
+  const sorted = s.strategies.filter(pass).sort((a, b) => farm.sort === "divh" ? (b.divhNum || 0) - (a.divhNum || 0) : a.difficulty - b.difficulty || (b.divhNum || 0) - (a.divhNum || 0));
+  $("farmList").innerHTML = sorted
     .map((st) => {
       const dots = "●".repeat(st.difficulty) + `<span class="off">${"●".repeat(5 - st.difficulty)}</span>`;
       const prices = (st.keyItems || [])
@@ -99,7 +104,9 @@ async function loadFarming() {
         </div>
       </details>`;
     })
-    .join("");
+    .join("") || `<p class="cat">Brak strategii w tej grupie.</p>`;
+  };
+  farm.render();
 }
 
 // ---- Opis przedmiotu (dane z RePoE w data/items.json) ----
@@ -143,6 +150,13 @@ async function openItem(id) {
 const closeSheet = () => { $("sheet").hidden = true; };
 $("rows").addEventListener("click", (e) => { const tr = e.target.closest("tr[data-id]"); if (tr) openItem(tr.dataset.id); });
 $("farmList").addEventListener("click", (e) => { const c = e.target.closest("[data-id]"); if (c) { e.preventDefault(); openItem(c.dataset.id); } });
+$("farmFilter").addEventListener("click", (e) => {
+  const f = e.target.dataset.f; if (!f) return;
+  farm.f = f;
+  document.querySelectorAll("#farmFilter .chip").forEach((c) => c.classList.toggle("active", c.dataset.f === f));
+  farm.render();
+});
+$("farmSort").addEventListener("change", (e) => { farm.sort = e.target.value; farm.render(); });
 $("sheetClose").addEventListener("click", closeSheet);
 $("sheet").addEventListener("click", (e) => { if (e.target.id === "sheet") closeSheet(); });
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeSheet(); });

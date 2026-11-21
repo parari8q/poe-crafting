@@ -21,8 +21,38 @@
     "Kliknij kocioł, nic nie wybieraj i idź dalej, żeby zachować wybór na bossa.",
     "Jeśli build nie znosi trudnych modów map, pomiń węzeł dodający mody."
    ],
-   "keyItems": ["stacked-deck", "chaos"],
-   "sources": ["https://farmofexile.com/poe1/article/alch-and-go-gold-farming-in-city-square"]
+   "keyItems": [
+    "stacked-deck",
+    "chaos"
+   ],
+   "sources": [
+    "https://farmofexile.com/poe1/article/alch-and-go-gold-farming-in-city-square"
+   ],
+   "divhNum": 9
+  },
+  {
+   "name": "Abyss na białych mapach (budżetowo)",
+   "divh": "mało: autor z 2,5 div doszedł do ok. 7 div i lepszej postaci w 50 map",
+   "divhNum": 2,
+   "difficulty": 1,
+   "investment": "Prawie zero: białe mapy T1 i 1–2 Abyss Thready na mapę",
+   "why": "Dla słabej postaci na start. Pozwala zarobić na pierwsze ulepszenia bez ryzyka.",
+   "build": "Cokolwiek. Autor uznał zbroję Impulsa za obowiązkową: skróciła mapę z 6–7 do ok. 2 minut.",
+   "needs": [
+    "Białe mapy T1 (Silo dla Smugglers Caches)",
+    "1 Abyss Thread na mapę, potem 2",
+    "Atlas: shrines, „Abyss Pits twice as likely to have rewards”, węzeł Abyss XP i dodatkowych potworów"
+   ],
+   "tips": [
+    "Alch & go, kupuj mapy w miarę potrzeby.",
+    "Pomijaj bossa mapy i mody Eldritch Altarów, jeśli build jest słaby.",
+    "Blood Threads sprzedawały się najlepiej.",
+    "Węzły item rarity są teraz bez sensu, rarity nie wpływa już na currency."
+   ],
+   "keyItems": [],
+   "sources": [
+    "https://www.aoeah.com/news/4941--poe-330-best-abyss-farm-strats-atlas-tree--map-plans"
+   ]
   },
   {
    "name": "Esencje Alch & Go",
@@ -42,18 +72,26 @@
     "Supernatural Genesis i Crystal Resonance zostaw na później, nie bierz ich na starcie.",
     "Używaj Mirage do dodatkowych, zduplikowanych map."
    ],
-   "keyItems": ["deafening-essence-of-scorn", "deafening-essence-of-zeal", "deafening-essence-of-contempt", "vaal"],
-   "sources": ["https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"]
+   "keyItems": [
+    "deafening-essence-of-scorn",
+    "deafening-essence-of-zeal",
+    "deafening-essence-of-contempt",
+    "vaal"
+   ],
+   "sources": [
+    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"
+   ],
+   "divhNum": 12
   },
   {
    "name": "Blight w Waste Pool",
    "divh": "ok. 8 div/h",
-   "difficulty": 3,
-   "investment": "Oleje Silver i Opalescent na anoint Chilling Tower na pierścień",
+   "difficulty": 2,
+   "investment": "Tanio: mapa T16 Waste Pool (6 modów) i 1 Blight Thread, razem ok. 3–5 c na mapę, plus oleje Silver/Opalescent na anoint",
    "why": "Prismatic Oil to teraz jeden z najdroższych przedmiotów w lidze (ok. 1380 c, kilkadziesiąt razy więcej niż tydzień temu). Każdy drop oleju z Blighta jest dużo wart.",
    "build": "Mocne AoE z proliferacją. Przykład z poradnika: Poison Bouncing Palm Strike.",
    "needs": [
-    "Wszystkie 4 Voidstone'y",
+    "Wszystkie 4 Voidstone'y (główny zysk to Nightmare Maps, które bez nich nie dropią jak trzeba)",
     "Mapy Waste Pool, najlepiej z jednym torem Blighta",
     "Anoint Chilling Tower, wieże Freezing i Stunning"
    ],
@@ -63,10 +101,73 @@
     "Uważaj na tory z Rogue Exiles, bo ignorują wieże.",
     "Shrines można pominąć."
    ],
-   "keyItems": ["prismatic-oil", "golden-oil", "silver-oil", "opalescent-oil"],
+   "keyItems": [
+    "prismatic-oil",
+    "golden-oil",
+    "silver-oil",
+    "opalescent-oil"
+   ],
    "sources": [
     "https://farmofexile.com/poe1/article/alch-and-go-gold-farming-in-city-square",
     "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"
+   ],
+   "divhNum": 8
+  },
+  {
+   "name": "Harvest: rerollowanie ołtarza z Fate'ami",
+   "divh": "ok. 17,5 div/h",
+   "divhNum": 17.5,
+   "difficulty": 3,
+   "investment": "Start ok. 2 div, potem ok. 11 c na mapę (3 najtańsze thready, mapa, Alteracje, Regal, Exalt)",
+   "why": "Rerollujesz ołtarz Harvest, aż wylosuje mod z 4 dodatkowymi rare Sacred Fauna tier 3. Do tego nagrody z kart Fate.",
+   "build": "Musi znieść dużo rare potworów, mapy 6-mod i 3 thready naraz. Autor grał totemami, bo chronią podczas rerollowania; np. Storm Burst Totem Hierophant.",
+   "needs": [
+    "Prawie wszystkie węzły Harvest (z Bountiful Harvest), bez Heart of the Grove i Nature's Favour",
+    "Mapy dowolne (autor: Dunes), exaltowane do 6 modów, ok. 75%+ atlas drop chance",
+    "3 różne thready na mapę, najtańsze na rynku",
+    "Orby Scouring, Transmutation, Alteration, Augmentation, Regal, Exalted do rerollu ołtarza"
+   ],
+   "tips": [
+    "Celuj tylko w mod z 4 dodatkowymi rare Sacred Fauna tier 3, inne nie są warte zachodu.",
+    "Jeśli ołtarz nie ma tego moda: scour, transmute, reroll, potem augment, regal, exalt.",
+    "Na kartach Fate liczy się pierwsza nagroda: thready, Stacked Decki, divine'y, mirror shardy.",
+    "Gdy Fate wymaga 2 takich samych kart, trzecia pasująca podwaja nagrodę."
+   ],
+   "keyItems": [
+    "sacred-lifeforce",
+    "alt",
+    "regal",
+    "exalted"
+   ],
+   "sources": [
+    "https://farmofexile.com/poe1/article/juiced-harvest-altar-rerolling-with-fates"
+   ]
+  },
+  {
+   "name": "Stacked Decki z Ritualem",
+   "divh": "ok. 10–14 div/h",
+   "divhNum": 12,
+   "difficulty": 3,
+   "investment": "Ok. 35–50 c na mapę, głównie Allflame Ember of the Cloister",
+   "why": "Allflame Ember of the Cloister dodaje paczki, które mogą dropić Stacked Decki. Sztuczka: po kliknięciu wszystkich ołtarzy wracasz do Ritualu z największą liczbą paczek, żeby potwory się odrodziły i dropiły jeszcze raz.",
+   "build": "Autor nie podaje buildu. Ważne szybkie czyszczenie; przy delikatnym buildzie unikaj tentacle fiendów.",
+   "needs": [
+    "Mapy Originator (tanie, szybkie, 40%+ pack size) albo Mirage",
+    "Allflame Ember of the Cloister na każdą mapę",
+    "3 thready: Ritual, Expedition i jeden tani (Breach albo Legion)",
+    "Atlas: pack size i explicit mody, potem magiczne paczki, shrines dla przeżywalności"
+   ],
+   "tips": [
+    "Nie używaj Ultimatum, Bestiary ani Betrayal, bo przesuwają albo zabierają potwory.",
+    "Na ołtarzach wybieraj duplikację podstawowej waluty (karty też się liczą).",
+    "Gdy Allflame kosztuje ok. 40 c, przejdź na mapy Mirage.",
+    "Pamiętaj o scry mapy, autor stracił przez to ok. 1 div/h."
+   ],
+   "keyItems": [
+    "stacked-deck"
+   ],
+   "sources": [
+    "https://farmofexile.com/poe1/article/allflame-stacked-deck-farming-with-ritual"
    ]
   },
   {
@@ -86,8 +187,38 @@
     "Zabij bossa najpierw, zanim Wispy się rozprzestrzenią.",
     "Scouruj filary z niechcianymi modami (regex), potem alchuj z powrotem do rare."
    ],
-   "keyItems": ["alch", "scour"],
-   "sources": ["https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"]
+   "keyItems": [
+    "sacred-lifeforce",
+    "vivid-lifeforce",
+    "alch",
+    "scour"
+   ],
+   "sources": [
+    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Incursion: flipowanie świątyń",
+   "divh": "brak danych",
+   "divhNum": null,
+   "difficulty": 3,
+   "investment": "Punkty Atlasu: 3 na thready Incursion i 8 na Power Struggle",
+   "why": "Budujesz i sprzedajesz zitemizowane świątynie z cennymi pokojami (Locus of Corruption, Doryani's Institute, Cradle of Creation), mniej więcej jedną co 4 mapy.",
+   "build": "Dowolny szybki build. Mody mapy nie wpływają na wartość świątyni.",
+   "needs": [
+    "1 Incursion Thread na mapę albo region Atlasu z Incursion",
+    "Węzły Power Struggle i Artifacts of the Vaal"
+   ],
+   "tips": [
+    "Celuj w Locus of Corruption, Doryani's Institute i Cradle of Creation.",
+    "Rolluj mapy lekko i stawiaj na szybkość.",
+    "Destructive Play jest opcjonalny."
+   ],
+   "keyItems": [],
+   "sources": [
+    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"
+   ]
   },
   {
    "name": "Ultimatum: Catalysty i Inscripcje",
@@ -107,13 +238,19 @@
     "Soul Core'y zbieraj tylko wtedy, gdy nie ma Trialmastera.",
     "Inscripcje sprzedawaj u vendora tylko w tym samym tierze (5 za 1). Drogie podcinaj o ok. 1 div przy sprzedaży."
    ],
-   "keyItems": ["dextral-catalyst", "sinistral-catalyst"],
-   "sources": ["https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"]
+   "keyItems": [
+    "dextral-catalyst",
+    "sinistral-catalyst"
+   ],
+   "sources": [
+    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"
+   ],
+   "divhNum": 32
   },
   {
    "name": "Ritual + Mirage na T16 City Square",
    "divh": "ok. 30 div/h",
-   "difficulty": 5,
+   "difficulty": 4,
    "investment": "Wysoka: mapy 8-mod (Alchemy + Exalted, potem Vaal na Mirage), 8–10 threadów Ritual i Blood-Filled Vessels na mapę",
    "why": "Najwyższy deklarowany zysk. Kasa idzie z idealnych zwłok, omenów (Omen of Fortune kosztuje teraz kilka tysięcy c) i An Audience with the King.",
    "build": "Mocna obrona przeciw gęstym paczkom i bossom z Vessels, albo bardzo szybkie czyszczenie. Przykład: Righteous Fire Chieftain (najbardziej wytrzymały z polecanych starterów).",
@@ -129,10 +266,94 @@
     "Jeśli często giniesz, zejdź do 4–6 threadów i zdejmij Unwavering Vision.",
     "Nie zbieraj niedoskonałych zwłok, zwykle są mało warte."
    ],
-   "keyItems": ["omen-of-fortune", "ritual-vessel", "exalted"],
+   "keyItems": [
+    "omen-of-fortune",
+    "ritual-vessel",
+    "exalted"
+   ],
    "sources": [
     "https://farmofexile.com/poe1/article/alch-and-go-gold-farming-in-city-square",
     "https://www.aoeah.com/news/4939--poe-330-ritual-farm-strategy-maps--atlas-tree"
+   ],
+   "divhNum": 30
+  },
+  {
+   "name": "Delirium: farmienie Simulacrum na T16",
+   "divh": "ok. 20 div/h",
+   "divhNum": 20,
+   "difficulty": 4,
+   "investment": "Tanio na mapę: ok. 9–17 c (mapa T16 + 1 Abyss Thread)",
+   "why": "Mapy z Mirror of Delirium dają głównie Simulacrum (ok. 0,5 div za pełny, mniej więcej co 2–3 mapy). Bez decyzji w mapie, po prostu biegniesz przez mgłę. Przy okazji ok. 100 mln XP/h na 98 poziomie.",
+   "build": "Szybkie czyszczenie i solidna obrona, bo mgła Delirium wzmacnia potwory. Autor nie podaje buildu; Luminary to dobry przykład.",
+   "needs": [
+    "Mapy T16 Strand albo Tropical Island (długie układy) z modem „Area contains a Mirror of Delirium”",
+    "1 Abyss Thread na mapę (więcej nie trzeba)",
+    "Atlas pod liczbę potworów: shrines, Searing Exarch, trochę Abyss",
+    "Regex do odrzucania modów, których build nie zniesie"
+   ],
+   "tips": [
+    "Maksymalizuj pack size na mapie, więcej potworów to więcej nagród.",
+    "Idź cały czas do przodu przez mgłę, nie zatrzymuj się.",
+    "Sprawdzaj aktualną cenę Simulacrum przed sprzedażą.",
+    "Thready trzymaj w stashu, żeby nie zużyć ich przypadkiem."
+   ],
+   "keyItems": [
+    "simulacrum",
+    "simulacrum-splinter"
+   ],
+   "sources": [
+    "https://farmofexile.com/poe1/article/t16-delirium-simulacrum-farm"
+   ]
+  },
+  {
+   "name": "Breach + Harvest",
+   "divh": "ok. 10–15 div/h",
+   "divhNum": 12.5,
+   "difficulty": 4,
+   "investment": "Średnia: thready na każdą mapę (autor: 7 Breach, 1 Abyss, 1 Betrayal)",
+   "why": "Łączy gęste paczki z Breacha z Lifeforce z Harvestu.",
+   "build": "Mocny build na dużo potworów naraz. Autor grał Slayerem z ok. 58 mln DPS.",
+   "needs": [
+    "Thready: 7 Breach, 1 Abyss, 1 Betrayal",
+    "Atlas pod Breach i Harvest"
+   ],
+   "tips": [
+    "To strategia dla mocnej postaci; z mniejszym DPS zacznij od mniejszej liczby threadów Breach.",
+    "Szczegóły drzewa Atlasu są w filmie autora."
+   ],
+   "keyItems": [
+    "sacred-lifeforce"
+   ],
+   "sources": [
+    "https://pobarchives.com/build/ppHwQbek",
+    "https://www.youtube.com/watch?v=u_KgWyWl_4Y"
+   ]
+  },
+  {
+   "name": "Destructive Play: rush bossów",
+   "divh": "brak danych (zysk z map specjalnych i fragmentów)",
+   "divhNum": null,
+   "difficulty": 4,
+   "investment": "Mała, potrzebny Maven na map device",
+   "why": "Pomijasz zwykłe mapowanie i od razu bijesz bossa. Maven przywołuje 1–3 dodatkowych bossów Atlasu, którzy dropią mapy Conquerorów, Guardianów, Synthesized i Maven's Invitations.",
+   "build": "Bardzo mocny single target i wytrzymałość, bo walczysz nawet z 4 bossami naraz na małej arenie. Slayer jest dobry w rushowaniu bossów.",
+   "needs": [
+    "Keystone Destructive Play na Atlasie",
+    "Maven na map device (więc bez ołtarzy Eldritch/Exarch)",
+    "Mapy Conquerorów, Guardianów, Synthesized"
+   ],
+   "tips": [
+    "Biegnij prosto do bossa i zabij go od razu, potem następna mapa.",
+    "Mody mapy działają też na przywołanych bossów, więc nie przesadzaj z trudnymi modami."
+   ],
+   "keyItems": [
+    "fragment-of-knowledge",
+    "fragment-of-shape",
+    "the-mavens-writ"
+   ],
+   "sources": [
+    "https://poe-atlas.com/boss-killing-atlas-strategy/",
+    "https://mobalytics.gg/poe/tier-list"
    ]
   }
  ]

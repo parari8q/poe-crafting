@@ -47,6 +47,18 @@
 
   <section id="farming" class="panel">
     <p id="farmNote" class="cat"></p>
+    <div class="controls farm-controls">
+      <div id="farmFilter" class="chips">
+        <button class="chip active" data-f="all">Wszystkie</button>
+        <button class="chip" data-f="easy">Łatwe</button>
+        <button class="chip" data-f="mid">Średnie</button>
+        <button class="chip" data-f="hard">Trudne</button>
+      </div>
+      <select id="farmSort" class="sel">
+        <option value="diff">Od najłatwiejszej</option>
+        <option value="divh">Najwięcej div/h</option>
+      </select>
+    </div>
     <div id="farmList"></div>
   </section>
 

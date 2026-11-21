@@ -55,6 +55,49 @@ async function load() {
   $("meta").textContent = `Liga ${d.league} · 1 div = ${Math.round(d.divine)} c · aktualizacja ${when}`;
   renderCats();
   renderRows();
+  loadFarming();
+}
+
+// ---- Farming: strategie z data/strategies.json + ceny na żywo ----
+const DIFF = ["", "bardzo łatwa", "łatwa", "średnia", "trudna", "bardzo trudna"];
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+async function loadFarming() {
+  let s;
+  try {
+    s = await (await fetch("data/strategies.json", { cache: "no-store" })).json();
+  } catch (e) {
+    $("farmNote").textContent = "Nie udało się wczytać strategii.";
+    return;
+  }
+  const byId = Object.fromEntries(state.data.items.map((i) => [i.id, i]));
+  $("farmNote").textContent = `Liga ${s.league} · stan na ${s.updated}. ${s.note}`;
+  const list = (arr) => `<ul>${arr.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;
+  $("farmList").innerHTML = s.strategies
+    .map((st) => {
+      const dots = "●".repeat(st.difficulty) + `<span class="off">${"●".repeat(5 - st.difficulty)}</span>`;
+      const prices = (st.keyItems || [])
+        .map((id) => byId[id])
+        .filter(Boolean)
+        .map((i) => `<span class="price-chip"><img src="${i.icon}" alt="">${esc(i.name)}: <b>${fmt(i.chaos)}</b></span>`)
+        .join("");
+      return `<details class="card">
+        <summary>
+          <div class="top"><h3>${esc(st.name)}</h3><span class="dots" title="Trudność">${dots}</span></div>
+          <div class="stats">${esc(st.divh)} · trudność: ${DIFF[st.difficulty]}</div>
+        </summary>
+        <div class="body">
+          <p>${esc(st.why)}</p>
+          ${prices ? `<h4>Kluczowe ceny teraz</h4><div>${prices}</div>` : ""}
+          <h4>Inwestycja</h4><p>${esc(st.investment)}</p>
+          <h4>Build</h4><p>${esc(st.build)}</p>
+          <h4>Co jest potrzebne</h4>${list(st.needs)}
+          <h4>Na co uważać</h4>${list(st.tips)}
+          <h4>Źródła</h4>${st.sources.map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a>`).join("<br>")}
+        </div>
+      </details>`;
+    })
+    .join("");
 }
 
 $("search").addEventListener("input", (e) => { state.q = e.target.value; renderRows(); });

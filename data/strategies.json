@@ -1,0 +1,139 @@
+{
+ "league": "Covens (3.30)",
+ "updated": "2026-11-21",
+ "note": "Div/h to deklaracje autorów strategii z krótkich testów, a nie gwarancja. Trudność (1–5) to nasza ocena: jak wymagająca jest strategia dla postaci i gracza. Ceny przy kluczowych przedmiotach są na żywo z poe.ninja.",
+ "strategies": [
+  {
+   "name": "Alch & Go: farmienie golda w City Square",
+   "divh": "7,7–9,2 div/h",
+   "difficulty": 1,
+   "investment": "ok. 130 c na start, 1–2 Chaos Orby na mapę",
+   "why": "Najprostszy start: bez threadów i bez drogich materiałów. Gold z magicznych potworów, bossów i nagród z Covenów, do tego trochę currency.",
+   "build": "Cokolwiek, co szybko i bezpiecznie zabija bossa mapy. Dla początkujących: Toxic Rain Pathfinder (polecany jako łatwy starter).",
+   "needs": [
+    "Mapy T16 City Square (alch & go)",
+    "Atlas: rudy z Kingsmarch (Bismuth, Verisium), węzły golda, Shrines z Acceleration, czerwone ołtarze",
+    "Bez threadów"
+   ],
+   "tips": [
+    "Gold na pierwszym miejscu, currency na drugim.",
+    "Z kart Fate bierz nagrody 3-częściowe (oprócz rarity). Z 2-częściowych najlepsze są Stacked Decki i gemy.",
+    "Kliknij kocioł, nic nie wybieraj i idź dalej, żeby zachować wybór na bossa.",
+    "Jeśli build nie znosi trudnych modów map, pomiń węzeł dodający mody."
+   ],
+   "keyItems": ["stacked-deck", "chaos"],
+   "sources": ["https://farmofexile.com/poe1/article/alch-and-go-gold-farming-in-city-square"]
+  },
+  {
+   "name": "Esencje Alch & Go",
+   "divh": "10–13,5 div/h (ok. 0,675 div na mapę)",
+   "difficulty": 2,
+   "investment": "ok. 150 c: ok. 50 Scourów i ok. 200 Vaal Orbów",
+   "why": "Mało inwestycji, dużo przerobu. W 3.30 liczba esencji na uwięzionych potworach rośnie razem ze statystyką Atlas Drops mapy. Deafening Essence of Scorn, Zeal i Contempt są teraz w najlepszych cenach.",
+   "build": "Około 3,5 mln DPS (2,5 mln wystarczy). Przykład: Luminary, czyli top starter wg tier listy Fubguna.",
+   "needs": [
+    "Mapy T16 City Square (3 bossy), alch & go z filtrem regex",
+    "Atlas: Recrystallisation (każdą esencję można zvaalować 2 razy)",
+    "Vaal Orby i Scoury"
+   ],
+   "tips": [
+    "Wybierz 4 typy esencji według aktualnych cen z poe.ninja (zakładka Ceny → Esencje).",
+    "Zawsze vaaluj Misery, Envy, Dread i Scorn oraz potwory z 4+ esencjami.",
+    "Supernatural Genesis i Crystal Resonance zostaw na później, nie bierz ich na starcie.",
+    "Używaj Mirage do dodatkowych, zduplikowanych map."
+   ],
+   "keyItems": ["deafening-essence-of-scorn", "deafening-essence-of-zeal", "deafening-essence-of-contempt", "vaal"],
+   "sources": ["https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"]
+  },
+  {
+   "name": "Blight w Waste Pool",
+   "divh": "ok. 8 div/h",
+   "difficulty": 3,
+   "investment": "Oleje Silver i Opalescent na anoint Chilling Tower na pierścień",
+   "why": "Prismatic Oil to teraz jeden z najdroższych przedmiotów w lidze (ok. 1380 c, kilkadziesiąt razy więcej niż tydzień temu). Każdy drop oleju z Blighta jest dużo wart.",
+   "build": "Mocne AoE z proliferacją. Przykład z poradnika: Poison Bouncing Palm Strike.",
+   "needs": [
+    "Wszystkie 4 Voidstone'y",
+    "Mapy Waste Pool, najlepiej z jednym torem Blighta",
+    "Anoint Chilling Tower, wieże Freezing i Stunning"
+   ],
+   "tips": [
+    "Stawiaj jedną Freezing Tower przy wejściu na każdy tor.",
+    "Odrzucaj mapy z „Monsters cannot be Stunned” i „action speed cannot be modified below base”.",
+    "Uważaj na tory z Rogue Exiles, bo ignorują wieże.",
+    "Shrines można pominąć."
+   ],
+   "keyItems": ["prismatic-oil", "golden-oil", "silver-oil", "opalescent-oil"],
+   "sources": [
+    "https://farmofexile.com/poe1/article/alch-and-go-gold-farming-in-city-square",
+    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"
+   ]
+  },
+  {
+   "name": "Harvest (Tangled Roots)",
+   "divh": "ok. 2–3 div na mapę T16 (deklaracja autora)",
+   "difficulty": 3,
+   "investment": "Orby Alchemy i Scouring do rerolli filarów",
+   "why": "Stabilny dochód z Lifeforce, który daje ok. 70–80% zysku. Nie wymaga threada Harvest.",
+   "build": "Dobre czyszczenie i obrona, żeby przeżyć rare paczki wzmocnione Wispami. Luminary dobrze tu pasuje.",
+   "needs": [
+    "Mapy T16 City Square (alch & go)",
+    "Atlas: węzeł, przez który filary Harvest nie są Normal, Path of Worship (Acceleration Shrines)",
+    "Ołtarze Exarcha w 1. tygodniu, potem Eatera",
+    "Regex z poe.re do modów filarów"
+   ],
+   "tips": [
+    "Zabij bossa najpierw, zanim Wispy się rozprzestrzenią.",
+    "Scouruj filary z niechcianymi modami (regex), potem alchuj z powrotem do rare."
+   ],
+   "keyItems": ["alch", "scour"],
+   "sources": ["https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"]
+  },
+  {
+   "name": "Ultimatum: Catalysty i Inscripcje",
+   "divh": "ok. 30–35 div/h (sesja 5 h: od 25 do 50 div/h)",
+   "difficulty": 4,
+   "investment": "Thready 2+2 na start, 4+2 w połowie, 6+2 przy pełnym gearze. Mapy rare po ok. 2–3 c",
+   "why": "Dextral i Sinistral Catalysty kosztują teraz ok. 45–53 c za sztukę, a Ultimatum je masowo daje.",
+   "build": "Musi szybko zabić Trialmastera i jednym strzałem kłaść rare paczki. Przykład: Luminary z dobrym gearem.",
+   "needs": [
+    "Thready Ultimatum (liczba rośnie z gearem)",
+    "Atlas z Mirage, żeby mieć drugi rzut ołtarza",
+    "Tanie mapy rare z lekkim rollowaniem"
+   ],
+   "tips": [
+    "Przed startem sprawdź nagrodę ołtarza i bierz tylko Catalysty lub Inscripcje.",
+    "Uważaj na propozycje double-down w rundach 7 i 8.",
+    "Soul Core'y zbieraj tylko wtedy, gdy nie ma Trialmastera.",
+    "Inscripcje sprzedawaj u vendora tylko w tym samym tierze (5 za 1). Drogie podcinaj o ok. 1 div przy sprzedaży."
+   ],
+   "keyItems": ["dextral-catalyst", "sinistral-catalyst"],
+   "sources": ["https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"]
+  },
+  {
+   "name": "Ritual + Mirage na T16 City Square",
+   "divh": "ok. 30 div/h",
+   "difficulty": 5,
+   "investment": "Wysoka: mapy 8-mod (Alchemy + Exalted, potem Vaal na Mirage), 8–10 threadów Ritual i Blood-Filled Vessels na mapę",
+   "why": "Najwyższy deklarowany zysk. Kasa idzie z idealnych zwłok, omenów (Omen of Fortune kosztuje teraz kilka tysięcy c) i An Audience with the King.",
+   "build": "Mocna obrona przeciw gęstym paczkom i bossom z Vessels, albo bardzo szybkie czyszczenie. Przykład: Righteous Fire Chieftain (najbardziej wytrzymały z polecanych starterów).",
+   "needs": [
+    "Mapy 8-mod z modem Mirage",
+    "Thready Ritual: 8 na mapę (10 z Unwavering Vision)",
+    "Blood-Filled Vessels: 2 sloty od 4 threadów, 3 przy 8",
+    "Odporność na chaos (Blood Shrine of Crows)"
+   ],
+   "tips": [
+    "Nie wydawaj tributu na ołtarzach 1–3, zbieraj go na ostatni.",
+    "Na 4. ołtarzu wydaj tribute na Championa, jeśli jest sacrifice. Jeśli go nie ma, wydaj w sklepie ołtarza.",
+    "Jeśli często giniesz, zejdź do 4–6 threadów i zdejmij Unwavering Vision.",
+    "Nie zbieraj niedoskonałych zwłok, zwykle są mało warte."
+   ],
+   "keyItems": ["omen-of-fortune", "ritual-vessel", "exalted"],
+   "sources": [
+    "https://farmofexile.com/poe1/article/alch-and-go-gold-farming-in-city-square",
+    "https://www.aoeah.com/news/4939--poe-330-ritual-farm-strategy-maps--atlas-tree"
+   ]
+  }
+ ]
+}

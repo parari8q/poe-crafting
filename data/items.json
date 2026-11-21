@@ -473,6 +473,56 @@
 }
 ]
 },
+"Wailing Essence of Hatred": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "(19-22)% increased Cold Damage",
+"slots": [
+"Amulet",
+"Ring"
+]
+},
+{
+"mod": "+(24-29)% to Cold Resistance",
+"slots": [
+"Belt",
+"Body Armour",
+"Boots",
+"Gloves",
+"Helmet",
+"Quiver",
+"Shield"
+]
+},
+{
+"mod": "Adds (57-77) to (114-132) Cold Damage",
+"slots": [
+"Bow",
+"Staff",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword"
+]
+},
+{
+"mod": "Adds (31-42) to (62-71) Cold Damage",
+"slots": [
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Thrusting One Hand Sword",
+"Wand"
+]
+}
+]
+},
 "Screaming Essence of Hatred": {
 "desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
 "use": "Right click this item then left click a normal or rare item to apply it.",
@@ -3798,71 +3848,6 @@
 }
 ]
 },
-"Wailing Essence of Doubt": {
-"desc": "Upgrades a normal item to rare with one guaranteed property",
-"use": "Right click this item then left click a normal item to apply it.",
-"stack": 10,
-"level": 42,
-"essence": [
-{
-"mod": "(19-23)% increased Evasion Rating",
-"slots": [
-"Amulet"
-]
-},
-{
-"mod": "+(61-80) to Evasion Rating",
-"slots": [
-"Belt",
-"Ring"
-]
-},
-{
-"mod": "+(102-120) to Evasion Rating",
-"slots": [
-"Body Armour",
-"Helmet"
-]
-},
-{
-"mod": "+(81-90) to Evasion Rating",
-"slots": [
-"Boots",
-"Gloves"
-]
-},
-{
-"mod": "+(216-325) to Accuracy Rating",
-"slots": [
-"Bow",
-"Claw",
-"Dagger",
-"One Hand Axe",
-"One Hand Mace",
-"One Hand Sword",
-"Sceptre",
-"Staff",
-"Thrusting One Hand Sword",
-"Two Hand Axe",
-"Two Hand Mace",
-"Two Hand Sword",
-"Wand"
-]
-},
-{
-"mod": "+(166-250) to Accuracy Rating",
-"slots": [
-"Quiver"
-]
-},
-{
-"mod": "+(121-150) to Evasion Rating",
-"slots": [
-"Shield"
-]
-}
-]
-},
 "Screaming Essence of Doubt": {
 "desc": "Upgrades a normal item to rare or reforges a rare item, guaranteeing one property",
 "use": "Right click this item then left click a normal or rare item to apply it.",
@@ -4329,6 +4314,71 @@
 "mod": "Adds (41-55) to (81-96) Fire Damage to Attacks",
 "slots": [
 "Quiver"
+]
+}
+]
+},
+"Wailing Essence of Loathing": {
+"desc": "Upgrades a normal item to rare with one guaranteed property",
+"use": "Right click this item then left click a normal item to apply it.",
+"stack": 10,
+"level": 42,
+"essence": [
+{
+"mod": "(25-29)% increased Global Critical Strike Chance",
+"slots": [
+"Amulet",
+"Quiver"
+]
+},
+{
+"mod": "(21-25)% increased Stun Duration on Enemies",
+"slots": [
+"Belt"
+]
+},
+{
+"mod": "(3-4)% increased Mana Reservation Efficiency of Skills",
+"slots": [
+"Body Armour",
+"Helmet"
+]
+},
+{
+"mod": "(16-20)% chance to Avoid Elemental Ailments",
+"slots": [
+"Boots"
+]
+},
+{
+"mod": "(20-24)% increased Critical Strike Chance",
+"slots": [
+"Bow",
+"Claw",
+"Dagger",
+"One Hand Axe",
+"One Hand Mace",
+"One Hand Sword",
+"Sceptre",
+"Staff",
+"Thrusting One Hand Sword",
+"Two Hand Axe",
+"Two Hand Mace",
+"Two Hand Sword",
+"Wand"
+]
+},
+{
+"mod": "(15-17)% increased Global Critical Strike Chance",
+"slots": [
+"Gloves",
+"Ring"
+]
+},
+{
+"mod": "(52-57)% increased Chance to Block",
+"slots": [
+"Shield"
 ]
 }
 ]

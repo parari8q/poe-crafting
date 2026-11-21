@@ -12,9 +12,8 @@ OUT = Path(__file__).resolve().parent.parent / "data" / "character"
 
 
 def post(path, data):
-    body = urllib.parse.urlencode(data).encode()
-    req = urllib.request.Request("https://www.pathofexile.com/character-window/" + path,
-                                 data=body, headers={"User-Agent": UA})
+    url = "https://www.pathofexile.com/character-window/" + path + "?" + urllib.parse.urlencode(data)
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
             return json.load(r)

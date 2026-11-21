@@ -2,7 +2,7 @@
 
 Zapisuje data/character/items.json i passives.json — do porównania postaci ze strategiami.
 """
-import json, sys, urllib.parse, urllib.request
+import json, sys, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 
 ACCOUNT = "DumDum_#0701"
@@ -15,8 +15,12 @@ def post(path, data):
     body = urllib.parse.urlencode(data).encode()
     req = urllib.request.Request("https://www.pathofexile.com/character-window/" + path,
                                  data=body, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "replace")[:500]
+        sys.exit(f"{path}: HTTP {e.code} — {body}")
 
 
 def main():

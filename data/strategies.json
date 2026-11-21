@@ -1,7 +1,7 @@
 {
  "league": "Covens (3.30)",
  "updated": "2026-11-21",
- "note": "Div/h to deklaracje autorów strategii z krótkich testów, a nie gwarancja. Trudność (1–5) to nasza ocena: jak wymagająca jest strategia dla postaci i gracza. Ceny przy kluczowych przedmiotach są na żywo z poe.ninja.",
+ "note": "Div/h to deklaracje autorów strategii z krótkich testów, a nie gwarancja. Trudność (1–5) to nasza ocena; przy strategiach z tier listy BawLocha jest też jego ocena trudności (★) i inwestycji (✦). Tier S–F to jego ranking z 20.11.2026. Ceny przy kluczowych przedmiotach są na żywo z poe.ninja.",
  "strategies": [
   {
    "name": "Alch & Go: farmienie golda w City Square",
@@ -70,7 +70,10 @@
     "Wybierz 4 typy esencji według aktualnych cen z poe.ninja (zakładka Ceny → Esencje).",
     "Zawsze vaaluj Misery, Envy, Dread i Scorn oraz potwory z 4+ esencjami.",
     "Supernatural Genesis i Crystal Resonance zostaw na później, nie bierz ich na starcie.",
-    "Używaj Mirage do dodatkowych, zduplikowanych map."
+    "Używaj Mirage do dodatkowych, zduplikowanych map.",
+    "BawLoch: esencji przybywa z % Atlas drops; mapa T16 6-mod daje ok. 20% więcej esencji niż zescourowana. Jeśli tracisz czas na rare mapach, scouruj je.",
+    "Pomijaj Rogue Exile'ów: taniej odpalić nową mapę niż walczyć z mocno wzmocnionym exile'em.",
+    "Essence of Trickery zdobywasz, korumpując potwora z esencjami w Mirage, gdzie jest Essence of Desolation."
    ],
    "keyItems": [
     "deafening-essence-of-scorn",
@@ -79,9 +82,15 @@
     "vaal"
    ],
    "sources": [
-    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"
+    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra",
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
    ],
-   "divhNum": 12
+   "divhNum": 12,
+   "tier": "S",
+   "bawloch": {
+    "difficulty": 3,
+    "investment": 1
+   }
   },
   {
    "name": "Blight w Waste Pool",
@@ -93,13 +102,18 @@
    "needs": [
     "Wszystkie 4 Voidstone'y (główny zysk to Nightmare Maps, które bez nich nie dropią jak trzeba)",
     "Mapy Waste Pool, najlepiej z jednym torem Blighta",
-    "Anoint Chilling Tower, wieże Freezing i Stunning"
+    "Anoint Chilling Tower, wieże Freezing i Stunning",
+    "BawLoch: 6–8 Blight Threadów + 2 losowe thready (np. Incursion i Ritual) dla węzła Multiplying Modifiers",
+    "Ołtarze Eater of Worlds"
    ],
    "tips": [
     "Stawiaj jedną Freezing Tower przy wejściu na każdy tor.",
     "Odrzucaj mapy z „Monsters cannot be Stunned” i „action speed cannot be modified below base”.",
     "Uważaj na tory z Rogue Exiles, bo ignorują wieże.",
-    "Shrines można pominąć."
+    "Shrines można pominąć.",
+    "BawLoch: poluj na mod threada, który zamienia potwory z jednego toru w potwory z currency (ikona chaos na dole toru).",
+    "Anointy na pierścienie: Chilling Tower zamraża na 0,2 s w promieniu, a Meteor Tower zostawia płonącą ziemię. Jedna Meteor Tower w środku, Freeze/Stun na przewężeniach (nie ulepszaj ich do tieru 4).",
+    "Strongboxy przy Blighcie mogą dropić oleje i otwierać się do 12 razy; rare strongbox (Diviner's, Arcanist's) najpierw zrolluj."
    ],
    "keyItems": [
     "prismatic-oil",
@@ -109,9 +123,15 @@
    ],
    "sources": [
     "https://farmofexile.com/poe1/article/alch-and-go-gold-farming-in-city-square",
-    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"
+    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra",
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
    ],
-   "divhNum": 8
+   "divhNum": 8,
+   "tier": "A",
+   "bawloch": {
+    "difficulty": 3,
+    "investment": 2
+   }
   },
   {
    "name": "Harvest: rerollowanie ołtarza z Fate'ami",
@@ -161,14 +181,23 @@
     "Nie używaj Ultimatum, Bestiary ani Betrayal, bo przesuwają albo zabierają potwory.",
     "Na ołtarzach wybieraj duplikację podstawowej waluty (karty też się liczą).",
     "Gdy Allflame kosztuje ok. 40 c, przejdź na mapy Mirage.",
-    "Pamiętaj o scry mapy, autor stracił przez to ok. 1 div/h."
+    "Pamiętaj o scry mapy, autor stracił przez to ok. 1 div/h.",
+    "BawLoch: paczki z Cloister zastępują teraz zwykłe paczki, więc jest gorzej niż w poprzednich ligach.",
+    "Biegnij do bossa, żeby usunąć ołtarze bossa; Ritual aktywuj tam, gdzie wokół padło najwięcej Stacked Decków.",
+    "Mapy z modem Mirage na Originatorach są drogie, więc bierz zwykłe T16 z Mirage i 30%+ pack size."
    ],
    "keyItems": [
     "stacked-deck"
    ],
    "sources": [
-    "https://farmofexile.com/poe1/article/allflame-stacked-deck-farming-with-ritual"
-   ]
+    "https://farmofexile.com/poe1/article/allflame-stacked-deck-farming-with-ritual",
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "tier": "A",
+   "bawloch": {
+    "difficulty": 3,
+    "investment": 4
+   }
   },
   {
    "name": "Harvest (Tangled Roots)",
@@ -181,11 +210,14 @@
     "Mapy T16 City Square (alch & go)",
     "Atlas: węzeł, przez który filary Harvest nie są Normal, Path of Worship (Acceleration Shrines)",
     "Ołtarze Exarcha w 1. tygodniu, potem Eatera",
-    "Regex z poe.re do modów filarów"
+    "Regex z poe.re do modów filarów",
+    "BawLoch: 3 dowolne thready (węzeł Multiplying Modifiers), mapa T16.5 z 30%+ pack size, ołtarze Eater of Worlds"
    ],
    "tips": [
     "Zabij bossa najpierw, zanim Wispy się rozprzestrzenią.",
-    "Scouruj filary z niechcianymi modami (regex), potem alchuj z powrotem do rare."
+    "Scouruj filary z niechcianymi modami (regex), potem alchuj z powrotem do rare.",
+    "BawLoch: rolluj Sacred Flora Alchemy + Scouring i celuj w 2 z: dodatkowa Tier 3 Sacred Fauna, więcej Lifeforce, Tier 3 Fauna dropi Stacked Deck/thready/currency, duplikacja dropów, większy pack size.",
+    "Wersja Harvest + Ritual istnieje, ale BawLoch woli sam Harvest: Lifeforce z Ritualu nie wynagradza straconego czasu."
    ],
    "keyItems": [
     "sacred-lifeforce",
@@ -194,31 +226,49 @@
     "scour"
    ],
    "sources": [
-    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"
+    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra",
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
    ],
-   "divhNum": null
+   "divhNum": null,
+   "tier": "S",
+   "bawloch": {
+    "difficulty": 4,
+    "investment": 2
+   }
   },
   {
-   "name": "Incursion: flipowanie świątyń",
+   "name": "Incursion: świątynie Atziri (flipowanie)",
    "divh": "brak danych",
    "divhNum": null,
-   "difficulty": 3,
+   "difficulty": 4,
    "investment": "Punkty Atlasu: 3 na thready Incursion i 8 na Power Struggle",
    "why": "Budujesz i sprzedajesz zitemizowane świątynie z cennymi pokojami (Locus of Corruption, Doryani's Institute, Cradle of Creation), mniej więcej jedną co 4 mapy.",
    "build": "Dowolny szybki build. Mody mapy nie wpływają na wartość świątyni.",
    "needs": [
     "1 Incursion Thread na mapę albo region Atlasu z Incursion",
-    "Węzły Power Struggle i Artifacts of the Vaal"
+    "Węzły Power Struggle i Artifacts of the Vaal",
+    "BawLoch: 1 Incursion Thread, mapa T16 6-mod, Silo, 1 Royal Visage na 3 mapy, ołtarze Exarcha"
    ],
    "tips": [
     "Celuj w Locus of Corruption, Doryani's Institute i Cradle of Creation.",
     "Rolluj mapy lekko i stawiaj na szybkość.",
-    "Destructive Play jest opcjonalny."
+    "Destructive Play jest opcjonalny.",
+    "BawLoch: graj na mapie Silo, żeby przy okazji zbierać kontrakty i blueprinty Heist.",
+    "Nowy mod threada może stworzyć zitemizowaną świątynię po zabiciu wszystkich unikatowych potworów w danym Incursion.",
+    "Royal Visage na mapie gwarantuje, że zabicie residenta doda Tier 3 Cradle of Creation. Połącz ten pokój z główną ścieżką i z Atziri, inaczej Royal Visage idzie na marne. Używaj go raz na 3 mapy."
    ],
-   "keyItems": [],
+   "keyItems": [
+    "royal-visage"
+   ],
    "sources": [
-    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"
-   ]
+    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra",
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "tier": "A",
+   "bawloch": {
+    "difficulty": 5,
+    "investment": 3
+   }
   },
   {
    "name": "Ultimatum: Catalysty i Inscripcje",
@@ -230,22 +280,31 @@
    "needs": [
     "Thready Ultimatum (liczba rośnie z gearem)",
     "Atlas z Mirage, żeby mieć drugi rzut ołtarza",
-    "Tanie mapy rare z lekkim rollowaniem"
+    "Tanie mapy rare z lekkim rollowaniem",
+    "BawLoch: 4–10 Ultimatum Threadów, mapa T16 6-mod, układ Jungle Valley, ołtarze Eater of Worlds"
    ],
    "tips": [
     "Przed startem sprawdź nagrodę ołtarza i bierz tylko Catalysty lub Inscripcje.",
     "Uważaj na propozycje double-down w rundach 7 i 8.",
     "Soul Core'y zbieraj tylko wtedy, gdy nie ma Trialmastera.",
-    "Inscripcje sprzedawaj u vendora tylko w tym samym tierze (5 za 1). Drogie podcinaj o ok. 1 div przy sprzedaży."
+    "Inscripcje sprzedawaj u vendora tylko w tym samym tierze (5 za 1). Drogie podcinaj o ok. 1 div przy sprzedaży.",
+    "BawLoch: build powinien mieć odporność na Hinder i Corrupted Blood oraz rezystancje przecapowane o ok. 25%.",
+    "Tier inscribed Ultimatum poznasz po modzie „X% more monster life”: 200% oznacza T0, wart sporo."
    ],
    "keyItems": [
     "dextral-catalyst",
     "sinistral-catalyst"
    ],
    "sources": [
-    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra"
+    "https://www.aoeah.com/news/4918--poe-330-best-atlas-tree-thread--map-farming-strats-covens-of-umbra",
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
    ],
-   "divhNum": 32
+   "divhNum": 32,
+   "tier": "S",
+   "bawloch": {
+    "difficulty": 5,
+    "investment": 3
+   }
   },
   {
    "name": "Ritual + Mirage na T16 City Square",
@@ -344,7 +403,10 @@
    ],
    "tips": [
     "Biegnij prosto do bossa i zabij go od razu, potem następna mapa.",
-    "Mody mapy działają też na przywołanych bossów, więc nie przesadzaj z trudnymi modami."
+    "Mody mapy działają też na przywołanych bossów, więc nie przesadzaj z trudnymi modami.",
+    "BawLoch (wersja z Conquerorami): rotuj czterech Conquerorów; typ Conquerora na mapie zmienisz Blessed Orbem.",
+    "Destructive Play liczy świadka-Conquerora zamiast bossa City Square. Po 4 mapach zrób Invitation.",
+    "Przed bossem wyczyść większość mapy, żeby wycisnąć pełną wartość Destructive Play."
    ],
    "keyItems": [
     "fragment-of-knowledge",
@@ -353,7 +415,504 @@
    ],
    "sources": [
     "https://poe-atlas.com/boss-killing-atlas-strategy/",
-    "https://mobalytics.gg/poe/tier-list"
+    "https://mobalytics.gg/poe/tier-list",
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "tier": "A",
+   "bawloch": {
+    "difficulty": 3,
+    "investment": 4
+   }
+  },
+  {
+   "name": "Nightmare Boss Rush",
+   "tier": "S",
+   "bawloch": {
+    "difficulty": 3,
+    "investment": 4
+   },
+   "difficulty": 3,
+   "divh": "brak liczb (S tier u BawLocha)",
+   "investment": "Wysoka: Nightmare Maps (T17) i 3 losowe thready na mapę",
+   "why": "Rushujesz bossa na Nightmare Maps. W 3.30 T17 dają bardzo często Vaulty z nagrodami.",
+   "build": "Mocny single target i dobra obrona, bo bossowie T17 są groźni. Np. Luminary albo inny mocny build na bossy.",
+   "needs": [
+    "Nightmare Maps: Fortress, Abomination (słaby vault), Sanctuary albo Ziggurat",
+    "3 losowe thready (pod węzeł Multiplying Modifiers)",
+    "Ołtarze Eater of Worlds"
+   ],
+   "tips": [
+    "Biegnij do bossa. Nie rób Mirage ani mechanik ligowych, zatrzymuj się tylko przy Lost Shipments i Starfall Craters.",
+    "Zawsze kończ Vaulty, gdy się pojawią."
+   ],
+   "keyItems": [],
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Rare Monster Stacking",
+   "tier": "S",
+   "bawloch": {
+    "difficulty": 5,
+    "investment": 5
+   },
+   "difficulty": 5,
+   "divh": "brak liczb (S tier u BawLocha)",
+   "investment": "Bardzo wysoka: 8 threadów Bestiary, 8 Abyss i 8 Legion na mapę, mapy T16.5 i Maven's Chisel of Avarice",
+   "why": "Stackujesz rare potwory z trzech mechanik naraz. Najwyższy sufit, ale tylko dla bardzo mocnych postaci.",
+   "build": "Prawie wymaga Headhuntera. Minimum to ekstremalnie mocny build z szybkim czyszczeniem i mocnym single targetem.",
+   "needs": [
+    "8 Bestiary + 8 Abyss + 8 Legion Threadów",
+    "Mapa T16.5 z 90%+ currency i dobrą rarity",
+    "Układ Dunes",
+    "Maven's Chisel of Avarice (albo chisel na rarity)",
+    "Ołtarze Eater of Worlds"
+   ],
+   "tips": [
+    "Najpierw wyczyść mapę, Legiony zostaw na koniec.",
+    "Aktywuj ołtarze z duplikacją currency, gdy się pojawią."
+   ],
+   "keyItems": [
+    "mavens-chisel-of-avarice"
+   ],
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Legion na 10 threadach",
+   "tier": "S",
+   "bawloch": {
+    "difficulty": 3,
+    "investment": 2
+   },
+   "difficulty": 3,
+   "divh": "brak liczb (S tier u BawLocha)",
+   "investment": "Niska–średnia: 1–10 Legion Threadów, mapa T16.5",
+   "why": "Rarity na mapach wpływa teraz na drop currency, więc Legion z dużą rarity i currency na mapie daje dużo waluty.",
+   "build": "Dobre czyszczenie. Liczbę threadów dopasujesz do siły postaci, a shrines z drzewka pomagają na każdym etapie.",
+   "needs": [
+    "1–10 Legion Threadów (tyle, ile build zniesie)",
+    "Mapa T16.5 z 60%+ currency",
+    "Układ Dunes",
+    "Ołtarze Eater of Worlds"
+   ],
+   "tips": [
+    "Szukaj map z wysoką rarity i dużym % currency.",
+    "Nie musisz rushować bossa na Dunes: keystone Celestial Presence pozwala wybierać typ ołtarzy."
+   ],
+   "keyItems": [],
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Czerwone ołtarze (Eldritch)",
+   "tier": "A",
+   "bawloch": {
+    "difficulty": 5,
+    "investment": 3
+   },
+   "difficulty": 5,
+   "divh": "brak liczb (A tier u BawLocha)",
+   "investment": "Średnia: 3 dowolne thready, mapy T16 6-mod",
+   "why": "Wybierasz ołtarze „Eldritch minions drop X” z cenną walutą (Chaos, Gemcutter's Prism) albo drogimi threadami (Abyss, Ultimatum).",
+   "build": "Bardzo wymagające: mocne mody ołtarzy trafiają na ciebie. Im mocniejszy build, tym więcej ołtarzy możesz brać.",
+   "needs": [
+    "Keystone Celestial Presence (gwarantuje wybór z Eldritch Minions na każdym ołtarzu)",
+    "3 dowolne thready",
+    "Mapy T16 6-mod, układ Dunes albo Jungle Valley",
+    "Ołtarze Exarcha"
+   ],
+   "tips": [
+    "Jungle Valley nie jest już konieczne, ale rush bossa nadal usuwa ołtarze bossa z drugiego wyboru.",
+    "Przy mocnym buildzie bierz każdy ołtarz z Eldritch Minions."
+   ],
+   "keyItems": [],
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Esencje z Calcification",
+   "tier": "A",
+   "bawloch": {
+    "difficulty": 3,
+    "investment": 4
+   },
+   "difficulty": 3,
+   "divh": "brak liczb (A tier u BawLocha)",
+   "investment": "Wyższa niż zwykłe esencje: enchant Calcified na mapie",
+   "why": "Wersja farmy esencji z enchantem Calcified. Ostatni boss mapy może dropić zkalcyfikowaną mapę dzięki węzłowi Crystal Resonance.",
+   "build": "Jak przy zwykłych esencjach, ale bossy z 5 esencjami bywają groźne.",
+   "needs": [
+    "Mapy T16 zescourowane albo alchowane, układ Dunes (jeden łatwy boss)",
+    "Enchant Calcified na mapie",
+    "Węzeł Crystal Resonance"
+   ],
+   "tips": [
+    "Na Strand tylko ostatni zabity boss może dropić zkalcyfikowaną mapę, a esencje dzielą się między dwóch bossów, dlatego lepsze jest Dunes.",
+    "Rogue Exile'owie nie są rare, więc nie da się ich kalcyfikować. Pomijaj ich.",
+    "Korumpuj esencje."
+   ],
+   "keyItems": [
+    "deafening-essence-of-scorn"
+   ],
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Big Boom Expedition",
+   "tier": "A",
+   "bawloch": {
+    "difficulty": 3,
+    "investment": 4
+   },
+   "difficulty": 4,
+   "divh": "brak liczb (A tier u BawLocha)",
+   "investment": "Średnio-wysoka: 4–10 Expedition Threadów",
+   "why": "Jedna z najtrudniejszych treści w grze, ale logbooki i dropy z Expedition są cenne.",
+   "build": "Najlepsze są buildy damage over time i z proliferacją, np. Physical DoT Elementalist z tier listy Fubguna. Potwory Expedition z Toughness są bardzo wytrzymałe.",
+   "needs": [
+    "4–10 Expedition Threadów",
+    "Mapa T16 z 30%+ pack size, układ Dunes",
+    "Ołtarze Eater of Worlds"
+   ],
+   "tips": [
+    "Przy wycenie logbooków patrz na „area contains (nazwa bossa Expedition)”: są 4 bossy i mocno podbijają cenę.",
+    "Jeśli zabijanie trwa wieki, zmniejsz liczbę threadów."
+   ],
+   "keyItems": [],
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Bestie (Bestiary)",
+   "tier": "A",
+   "bawloch": {
+    "difficulty": 4,
+    "investment": 2
+   },
+   "difficulty": 4,
+   "divh": "brak liczb (A tier u BawLocha)",
+   "investment": "Niska–średnia: 1–8 Bestiary Threadów",
+   "why": "Łapiesz cenne czerwone bestie na sprzedaż albo do craftu.",
+   "build": "Musi bezpiecznie łapać czerwone bestie, które bywają groźne.",
+   "needs": [
+    "1–8 Bestiary Threadów",
+    "Mapa T16 6-mod, układ Strand",
+    "Ołtarze Exarcha"
+   ],
+   "tips": [
+    "Czyść mapę i łap tylko cenne czerwone bestie. Jeśli ich nie rozpoznajesz, łap wszystkie.",
+    "3 thready dają 2 dodatkowe czerwone bestie, 6 threadów 3, a 8 threadów 4."
+   ],
+   "keyItems": [],
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Boss Rush w City Square",
+   "tier": "A",
+   "bawloch": {
+    "difficulty": 3,
+    "investment": 1
+   },
+   "difficulty": 3,
+   "divh": "brak liczb (A tier u BawLocha)",
+   "investment": "Bardzo niska: bez threadów, mapy T16 6-mod",
+   "why": "Skalujesz loot z unikatowych potworów i rushujesz bossów City Square po gold, mapy, invitations i inne dropy.",
+   "build": "Dobry single target, żeby szybko kłaść bossów.",
+   "needs": [
+    "Mapy T16 6-mod City Square",
+    "Bez threadów (opcjonalnie 1 Breach Thread dla Grasping Coffers)"
+   ],
+   "tips": [
+    "Rush bossa i zbieraj Lost Shipments.",
+    "Możesz zrobić tylko pierwsze spotkanie mechaniki ligowej i dodać je do bossa (szansa na Grim Fate) albo czyścić wszystkie w poszukiwaniu Divine'ów, Hinekora's Lock i Mirror Shardów."
+   ],
+   "keyItems": [],
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Mercenary Farming",
+   "tier": "B",
+   "bawloch": {
+    "difficulty": 4,
+    "investment": 1
+   },
+   "difficulty": 4,
+   "divh": "brak liczb (B tier u BawLocha)",
+   "investment": "Bardzo niska: 1 Breach Thread",
+   "why": "Luźny styl gry: Lost Shipments zostały wzmocnione w 3.30 i dropią dużo currency.",
+   "build": "Musi radzić sobie z Mercenaries i ołtarzami Exarcha.",
+   "needs": [
+    "1 Breach Thread",
+    "Mapa T16 6-mod City Square",
+    "Ołtarze Exarcha, węzeł Celestial Presence"
+   ],
+   "tips": [
+    "Nie rób Breach Hives ani Fortresses, otwieraj tylko Grasping Coffers i Saplingi po przedmioty Blood/Foulborn.",
+    "Celestial Presence gwarantuje przynajmniej jeden wybór Exarch Minion na każdym ołtarzu."
+   ],
+   "keyItems": [],
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Terror Shrines",
+   "tier": "B",
+   "bawloch": {
+    "difficulty": 4,
+    "investment": 4
+   },
+   "difficulty": 4,
+   "divh": "brak liczb (B tier u BawLocha)",
+   "investment": "Wysoka: mapy z enchantem Terrors",
+   "why": "Dobra strategia, choć zbugowana: „Bosses drop X threads” nie działa z shrines. Wrażliwa na zmiany cen map.",
+   "build": "Musi bić bossy z ołtarzami bossa.",
+   "needs": [
+    "Mapa T16 z enchantem Terrors",
+    "City Square",
+    "Ołtarze Exarcha"
+   ],
+   "tips": [
+    "Przed zabiciem bossów bierz każdy ołtarz bossa, jaki się da.",
+    "Unikatowe węzły na drzewku są opcjonalne, pomagają tylko na gold i zwykły loot."
+   ],
+   "keyItems": [],
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Abyss: farma map",
+   "tier": "B",
+   "bawloch": {
+    "difficulty": 5,
+    "investment": 4
+   },
+   "difficulty": 5,
+   "divh": "brak liczb (B tier u BawLocha)",
+   "investment": "Wysoka: 10 Abyss Threadów, mapy T16.5",
+   "why": "Farmisz mapy (dużo dodatkowych map), przy okazji świetny gold i XP.",
+   "build": "Prawdopodobnie potrzebny Headhunter.",
+   "needs": [
+    "10 Abyss Threadów",
+    "Mapa T16.5 z 70%+ more maps, układ Dunes",
+    "Ołtarze Eater of Worlds"
+   ],
+   "tips": [
+    "Magiczne mapy z wpływem Originatora rolują tylko mody Nightmare (te z % map i % currency), więc łatwo je zrobić alteracjami.",
+    "Celuj w ołtarze z duplikacją map (częstsze z Celestial Presence).",
+    "Możesz mieszać więcej currency z więcej map na mapach, które robisz."
+   ],
+   "keyItems": [],
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Ritual na 10 threadach",
+   "tier": "B",
+   "bawloch": {
+    "difficulty": 2,
+    "investment": 2
+   },
+   "difficulty": 2,
+   "divh": "brak liczb (B tier u BawLocha)",
+   "investment": "Niska: 10 Ritual Threadów, mapy T16 6-mod",
+   "why": "Prostsza wersja Ritualu, bez Mirage. Nameless ritual altars pojawiają się w 3.30 dużo częściej, mniej więcej co 4–5 map.",
+   "build": "Średnio wymagająca. Jeśli jest za trudno, zmniejsz liczbę threadów.",
+   "needs": [
+    "10 Ritual Threadów",
+    "Mapa T16 6-mod City Square",
+    "Ołtarze Exarcha"
+   ],
+   "tips": [
+    "Liczbę threadów zmniejszaj według progów: 3, 6 i 8.",
+    "Pozostały tribute na końcu mapy możesz wydać na dodatkowy loot z Ritualu."
+   ],
+   "keyItems": [
+    "ritual-vessel"
+   ],
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ],
+   "divhNum": null
+  },
+  {
+   "name": "Gilded Allflame Rotas",
+   "tier": "S",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier S u BawLocha. W tier liście bez poradnika. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ]
+  },
+  {
+   "name": "Betrayal",
+   "tier": "B",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier B u BawLocha. W tier liście jest tylko nazwa, bez opisu. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ]
+  },
+  {
+   "name": "Breach Fortresses",
+   "tier": "B",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier B u BawLocha. W tier liście jest tylko nazwa, bez opisu. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ]
+  },
+  {
+   "name": "Enchanted Heist",
+   "tier": "B",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier B u BawLocha. W tier liście jest tylko nazwa, bez opisu. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ]
+  },
+  {
+   "name": "Delirium: farmienie splinterów",
+   "tier": "B",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier B u BawLocha. W tier liście jest tylko nazwa, bez opisu. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ]
+  },
+  {
+   "name": "Containment Strongboxes",
+   "tier": "F",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier F u BawLocha. Nie warto w tej lidze. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ]
+  },
+  {
+   "name": "Breach Hives",
+   "tier": "F",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier F u BawLocha. Nie warto w tej lidze. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ]
+  },
+  {
+   "name": "Allflame of Kulemak",
+   "tier": "F",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier F u BawLocha. Nie warto w tej lidze. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ]
+  },
+  {
+   "name": "Multitude Maps",
+   "tier": "F",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier F u BawLocha. Zbugowane, nie warto. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ]
+  },
+  {
+   "name": "Allflame of Ethereal",
+   "tier": "F",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier F u BawLocha. Nie warto w tej lidze. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ]
+  },
+  {
+   "name": "Unstable Breach",
+   "tier": "F",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier F u BawLocha. Nie warto w tej lidze. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ]
+  },
+  {
+   "name": "Sentinels",
+   "tier": "F",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier F u BawLocha. Nie warto w tej lidze. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
+   ]
+  },
+  {
+   "name": "Meatsacks",
+   "tier": "DEAD",
+   "short": true,
+   "difficulty": 0,
+   "divh": "tylko pozycja w tier liście",
+   "divhNum": null,
+   "why": "Tier DEAD u BawLocha. Martwe po przebudowie endgame'u. Mogę doszukać szczegółów.",
+   "sources": [
+    "Tier lista BawLocha: Path of Exile 3.30 Currency Tier List (aktualizacja 20.11.2026)"
    ]
   }
  ]

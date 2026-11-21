@@ -78,29 +78,47 @@ async function loadFarming() {
   const list = (arr) => `<ul>${arr.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;
   farm.all = s.strategies;
   farm.render = () => {
-  const pass = (st) => farm.f === "all" || (farm.f === "easy" ? st.difficulty <= 2 : farm.f === "mid" ? st.difficulty === 3 : st.difficulty >= 4);
-  const sorted = s.strategies.filter(pass).sort((a, b) => farm.sort === "divh" ? (b.divhNum || 0) - (a.divhNum || 0) : a.difficulty - b.difficulty || (b.divhNum || 0) - (a.divhNum || 0));
+  const TIER = { S: 0, A: 1, B: 2, F: 3, DEAD: 4 };
+  const tr = (x) => (x.tier in TIER ? TIER[x.tier] : 2.5);
+  const pass = (st) => farm.f === "all" || (!st.short && (farm.f === "easy" ? st.difficulty <= 2 : farm.f === "mid" ? st.difficulty === 3 : st.difficulty >= 4));
+  const cmp = {
+    divh: (a, b) => (b.divhNum || 0) - (a.divhNum || 0) || tr(a) - tr(b),
+    tier: (a, b) => tr(a) - tr(b) || a.difficulty - b.difficulty,
+    diff: (a, b) => a.difficulty - b.difficulty || (b.divhNum || 0) - (a.divhNum || 0),
+  }[farm.sort];
+  const sorted = s.strategies.filter(pass).sort((a, b) => (!!a.short - !!b.short) || cmp(a, b));
   $("farmList").innerHTML = sorted
     .map((st) => {
+      const tier = st.tier ? `<span class="tier t-${st.tier}">${st.tier === "DEAD" ? "✝" : st.tier}</span>` : "";
+      const link = (u) => /^https?:/.test(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a>` : `<span class="cat">${esc(u)}</span>`;
+      if (st.short) {
+        return `<details class="card short"><summary><div class="top"><h3>${tier}${esc(st.name)}</h3></div>
+          <div class="stats">${esc(st.divh)}</div></summary>
+          <div class="body"><p>${esc(st.why)}</p><h4>Źródła</h4>${st.sources.map(link).join("<br>")}</div></details>`;
+      }
       const dots = "●".repeat(st.difficulty) + `<span class="off">${"●".repeat(5 - st.difficulty)}</span>`;
       const prices = (st.keyItems || [])
         .map((id) => byId[id])
         .filter(Boolean)
         .map((i) => `<span class="price-chip" data-id="${i.id}" style="cursor:pointer"><img src="${i.icon}" alt="">${esc(i.name)}: <b>${fmt(i.chaos)}</b></span>`)
         .join("");
+      const bl = st.bawloch
+        ? `<p class="cat">Ocena BawLocha: trudność <span class="stars">${"★".repeat(st.bawloch.difficulty)}${"☆".repeat(5 - st.bawloch.difficulty)}</span> · inwestycja <span class="stars">${"✦".repeat(st.bawloch.investment)}${"✧".repeat(5 - st.bawloch.investment)}</span></p>`
+        : "";
       return `<details class="card">
         <summary>
-          <div class="top"><h3>${esc(st.name)}</h3><span class="dots" title="Trudność">${dots}</span></div>
+          <div class="top"><h3>${tier}${esc(st.name)}</h3><span class="dots" title="Trudność">${dots}</span></div>
           <div class="stats">${esc(st.divh)} · trudność: ${DIFF[st.difficulty]}</div>
         </summary>
         <div class="body">
+          ${bl}
           <p>${esc(st.why)}</p>
           ${prices ? `<h4>Kluczowe ceny teraz</h4><div>${prices}</div>` : ""}
           <h4>Inwestycja</h4><p>${esc(st.investment)}</p>
           <h4>Build</h4><p>${esc(st.build)}</p>
           <h4>Co jest potrzebne</h4>${list(st.needs)}
           <h4>Na co uważać</h4>${list(st.tips)}
-          <h4>Źródła</h4>${st.sources.map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a>`).join("<br>")}
+          <h4>Źródła</h4>${st.sources.map(link).join("<br>")}
         </div>
       </details>`;
     })
